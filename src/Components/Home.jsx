@@ -38,43 +38,7 @@ const services = [
     }
   ];
 
-  const experts = [
-    {
-      name: "Chanodya",
-      position: "Manager and Accountant",
-      company: "TITANCode",
-      description: "I oversee day-to-day operations, ensure financial accuracy, and manage budgets to support our team's success and efficiency.",
-      positionStyle: { top: '20%', left: '30%' } // Adjust these values to position the dot over Chanodya
-    },
-    {
-      name: "Expert 2",
-      position: "Position 2",
-      company: "TITANCode",
-      description: "Description for expert 2.",
-      positionStyle: { top: '30%', left: '50%' } // Adjust these values to position the dot over Expert 2
-    },
-    {
-      name: "Expert 3",
-      position: "Position 3",
-      company: "TITANCode",
-      description: "Description for expert 3.",
-      positionStyle: { top: '40%', left: '70%' } // Adjust these values to position the dot over Expert 3
-    },
-    {
-      name: "Expert 4",
-      position: "Position 4",
-      company: "TITANCode",
-      description: "Description for expert 4.",
-      positionStyle: { top: '50%', left: '20%' } // Adjust these values to position the dot over Expert 4
-    },
-    {
-      name: "Expert 5",
-      position: "Position 5",
-      company: "TITANCode",
-      description: "Description for expert 5.",
-      positionStyle: { top: '60%', left: '80%' } // Adjust these values to position the dot over Expert 5
-    }
-  ];
+  
 const Home = () => {
   return (
     <div>
@@ -110,21 +74,21 @@ const Home = () => {
     </section>
 
     <section className="bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px] ">
-      <div className="max-w-7xl mx-5">
-      <h1 className="text-4xl text-[#0090FF] md:text-6xl font-bold mb-6 uppercase">OUR SERVICES</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service, index) => (
-            <div key={index} className="bg-[#F4F4F5] p-6 rounded-[30px] ">
-              <div className="flex items-center justify-end mb-4">
-                <img src={service.image} alt={service.title} className="w-12 h-12 " />
+        <div className="max-w-7xl mx-auto">
+          <h1 className="text-4xl text-[#0090FF] md:text-6xl font-bold mb-6 uppercase text-center">OUR SERVICES</h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+            {services.map((service, index) => (
+              <div key={index} className="bg-[#F4F4F5] p-6 rounded-[30px] ">
+                <div className="flex items-center justify-end mb-4">
+                  <img src={service.image} alt={service.title} className="w-12 h-12 " />
+                </div>
+                <h3 className="text-xl font-bold mb-2">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
               </div>
-              <h3 className="text-xl font-bold mb-2">{service.title}</h3>
-              <p className="text-gray-600">{service.description}</p>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
     
     

@@ -57,7 +57,7 @@ const Experts = () => {
 
   return (
     <div className="bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px]">
-      <h1 className="text-4xl text-[#0090FF] md:text-6xl font-bold mb-6 uppercase mx-5 ">MEET THE EXPERTS</h1>
+      <h1 className="text-3xl text-[#0090FF] md:text-6xl font-bold mb-6 uppercase mx-5 text-center ">MEET THE EXPERTS</h1>
       <div className="relative flex justify-center">
         <img src={groupImage} alt="Team" className="w-full rounded-[50px] object-bottom" />
         {experts.map((expert, index) => (
