@@ -1,7 +1,80 @@
 import React from 'react';
+
 import Homeimg from "../Assets/Home/Rectangle 4.png"
 import WeAre from "../Assets/Home/Weare.png"
+import Titan from "../Assets/Home/logoTitan.png"
 
+
+const services = [
+    {
+      title: "WEB APPLICATION",
+      description: "Build captivating, responsive websites that engage your audience and elevate your online presence with our web development services.",
+      image: Titan
+    },
+    {
+      title: "MOBILE APPLICATION",
+      description: "Bring your ideas to life with our expert mobile and web app development services, delivering scalable and high-performance solutions tailored to your needs.",
+      image: Titan
+    },
+    {
+      title: "POS SYSTEM",
+      description: "Enhance your business operations with our customizable POS systems, providing efficient transactions, real-time inventory management, and solutions to boost efficiency and customer service.",
+      image: Titan
+    },
+    {
+      title: "GRAPHIC DESIGNING",
+      description: "Elevate your brand identity with our creative graphic design services, featuring eye-catching visuals and compelling designs.",
+      image: Titan
+    },
+    {
+      title: "UI/UX DESIGNING",
+      description: "We specialize in UI/UX design to craft intuitive, visually appealing interfaces that enhance user experiences and improve interaction with your product.",
+      image: Titan
+    },
+    {
+      title: "DIGITAL MARKETING",
+      description: "Enhance your online presence and attract customers with our digital marketing services. We provide strategies to boost visibility, increase traffic, and engage your audience.",
+      image: Titan
+    }
+  ];
+
+  const experts = [
+    {
+      name: "Chanodya",
+      position: "Manager and Accountant",
+      company: "TITANCode",
+      description: "I oversee day-to-day operations, ensure financial accuracy, and manage budgets to support our team's success and efficiency.",
+      positionStyle: { top: '20%', left: '30%' } // Adjust these values to position the dot over Chanodya
+    },
+    {
+      name: "Expert 2",
+      position: "Position 2",
+      company: "TITANCode",
+      description: "Description for expert 2.",
+      positionStyle: { top: '30%', left: '50%' } // Adjust these values to position the dot over Expert 2
+    },
+    {
+      name: "Expert 3",
+      position: "Position 3",
+      company: "TITANCode",
+      description: "Description for expert 3.",
+      positionStyle: { top: '40%', left: '70%' } // Adjust these values to position the dot over Expert 3
+    },
+    {
+      name: "Expert 4",
+      position: "Position 4",
+      company: "TITANCode",
+      description: "Description for expert 4.",
+      positionStyle: { top: '50%', left: '20%' } // Adjust these values to position the dot over Expert 4
+    },
+    {
+      name: "Expert 5",
+      position: "Position 5",
+      company: "TITANCode",
+      description: "Description for expert 5.",
+      positionStyle: { top: '60%', left: '80%' } // Adjust these values to position the dot over Expert 5
+    }
+  ];
 const Home = () => {
   return (
     <div>
@@ -21,7 +94,7 @@ const Home = () => {
     </section>
 
     <section className="bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px] ">
-      <div className="max-w-7xl mx-[auto] flex flex-col md:flex-row items-center">
+      <div className="max-w-8xl mx-[auto] flex flex-col md:flex-row items-center">
       <div className="md:w-1/2 order-1 md:order-2 mt-12 md:mt-0 flex justify-center">
           <img className="" src={WeAre} /> </div>
         <div className="md:w-1/2 order-2 md:order-2 mt-12 md:mt-0 mx-5">
@@ -35,6 +108,25 @@ const Home = () => {
         </div>
       </div>
     </section>
+
+    <section className="bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px] ">
+      <div className="max-w-7xl mx-5">
+      <h1 className="text-4xl text-[#0090FF] md:text-6xl font-bold mb-6 uppercase">OUR SERVICES</h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {services.map((service, index) => (
+            <div key={index} className="bg-[#F4F4F5] p-6 rounded-[30px] ">
+              <div className="flex items-center justify-end mb-4">
+                <img src={service.image} alt={service.title} className="w-12 h-12 " />
+              </div>
+              <h3 className="text-xl font-bold mb-2">{service.title}</h3>
+              <p className="text-gray-600">{service.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    
     
     </div>
   );
