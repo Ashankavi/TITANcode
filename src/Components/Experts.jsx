@@ -63,7 +63,7 @@ const Experts = () => {
         {experts.map((expert, index) => (
           <button
             key={index}
-            className="absolute bg-blue-500 rounded-full w-6 h-6 flex items-center justify-center text-white"
+            className="absolute flex items-center justify-center w-6 h-6 text-white bg-blue-500 rounded-full"
             style={expert.positionStyle}
             onClick={() => handleDotClick(expert)}
           >

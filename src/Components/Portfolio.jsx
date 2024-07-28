@@ -1,8 +1,44 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 import Homeimg from "../Assets/Portfolio/rocket.png"
+import Photographer from "../Assets/Portfolio/photographer.png"
+import Fashion from "../Assets/Portfolio/fashion.png"
+import Coffee from "../Assets/Portfolio/coffee.png"
+
+const cards = [
+    { category: 'E-Commerce', title: 'Photographer Portfolio Web Design', image: Photographer },
+    { category: 'Fashion Store', title: 'Fashion Store Portfolio Web Design', image: Fashion },
+    { category: 'Health', title: 'Health Portfolio Web Design', image: Coffee },
+    { category: 'Health', title: 'Health Portfolio Web Design', image: Coffee },
+    { category: 'Health', title: 'Health Portfolio Web Design', image: Coffee },
+    { category: 'Health', title: 'Health Portfolio Web Design', image: Coffee },
+    { category: 'Health', title: 'Health Portfolio Web Design', image: Coffee },
+    // Add more card data here as needed
+  ];
 
 const Portfolio = () => {
+    const [filter, setFilter] = useState('All');
+    const [currentPage, setCurrentPage] = useState(0);
+  
+    const filteredCards = filter === 'All' ? cards : cards.filter(card => card.category === filter);
+  
+    const cardsPerPage = 3;
+    const totalPages = Math.ceil(filteredCards.length / cardsPerPage);
+    const currentCards = filteredCards.slice(currentPage * cardsPerPage, (currentPage + 1) * cardsPerPage);
+  
+    const handleFilterChange = (e) => {
+      setFilter(e.target.value);
+      setCurrentPage(0); // Reset to the first page whenever the filter changes
+    };
+  
+    const handlePrevPage = () => {
+      setCurrentPage((prev) => (prev > 0 ? prev - 1 : totalPages - 1));
+    };
+  
+    const handleNextPage = () => {
+      setCurrentPage((prev) => (prev < totalPages - 1 ? prev + 1 : 0));
+    };
+
   return (
     <div>
       
@@ -20,6 +56,43 @@ const Portfolio = () => {
           <img className="" src={Homeimg} /></div>
       </div>
     </section>
+
+    <div className=" bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px] p-4">
+    <div className="flex items-center mb-8 filter-dropdown">
+        <span className="mr-2">Filter:</span>
+        <select
+          value={filter}
+          onChange={handleFilterChange}
+          className="p-2 border border-gray-300 rounded"
+        >
+          <option value="All">All</option>
+          <option value="E-Commerce">E-Commerce</option>
+          <option value="Fashion Store">Fashion Store</option>
+          <option value="Health">Health</option>
+        </select>
+      </div>
+
+      <div className="grid grid-cols-1 gap-8 cards-grid sm:grid-cols-2 md:grid-cols-3">
+        {filteredCards.map((card, index) => (
+          <div key={index} className="overflow-hidden bg-gray-100 bg-opacity-75 backdrop-blur-md rounded-[30px] shadow-md card">
+            <div className="relative">
+              <img src={card.image} alt={card.title} className="object-cover w-full h-48" />
+              <div className="absolute px-2 py-1 text-xs text-white bg-gray-800 rounded top-2 left-2">
+                {card.category}
+              </div>
+            </div>
+            <div className="p-4">
+              <h2 className="mb-2 text-lg font-semibold">{card.title}</h2>
+              <p className="text-gray-600 text-[8px] sm:text-[7px] md:text-[8px] lg:text-[15px]">
+                At TITANCode, our web application services are designed to transform your ideas into
+                powerful, scalable, and high-performance applications. We specialize in creating
+                custom web solutions that are responsive, user-friendly, and visually eye-catching.
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
 
     </div>
   )
