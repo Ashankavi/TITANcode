@@ -107,7 +107,7 @@ const Contact = () => {
               <input
                 type="text"
                 name="name"
-                className="mt-2 w-full p-4 text-[#606060] text-xs bg-[#F4F4F5] rounded-[10px]"
+                className="mt-2 w-full p-4 text-[#606060] text-xs bg-[#F4F4F5] rounded-[10px] outline-none hover:ring-1 hover:ring-[#5A9BFC]"
                 placeholder="Enter name"
                 value={formData.name}
                 onChange={handleChange}
@@ -119,7 +119,7 @@ const Contact = () => {
               <input
                 type="email"
                 name="email"
-                className="mt-2 w-full p-4 text-[#606060] text-xs bg-[#F4F4F5] rounded-[10px]"
+                className="mt-2 w-full p-4 text-[#606060] text-xs bg-[#F4F4F5] rounded-[10px] outline-none hover:ring-1 hover:ring-[#5A9BFC]"
                 placeholder="Enter email address"
                 value={formData.email}
                 onChange={handleChange}
@@ -131,7 +131,7 @@ const Contact = () => {
               <input
                 type="text"
                 name="phone"
-                className="mt-2 w-full p-4 text-[#606060] bg-[#F4F4F5] text-xs rounded-[10px]"
+                className="mt-2 w-full p-4 text-[#606060] bg-[#F4F4F5] text-xs rounded-[10px] outline-none hover:ring-1 hover:ring-[#5A9BFC]"
                 placeholder="Enter phone number"
                 value={formData.phone}
                 onChange={handleChange}
@@ -142,7 +142,7 @@ const Contact = () => {
               <input
                 type="text"
                 name="subject"
-                className="mt-2 w-full p-4 text-[#606060] text-xs bg-[#F4F4F5] rounded-[10px]"
+                className="mt-2 w-full p-4 text-[#606060] text-xs bg-[#F4F4F5] rounded-[10px] outline-none hover:ring-1 hover:ring-[#5A9BFC]"
                 placeholder="Enter your subject"
                 value={formData.subject}
                 onChange={handleChange}
@@ -153,7 +153,7 @@ const Contact = () => {
               <label className="block font-medium text-black">Message<span className='text-red-500 '>*</span></label>
               <textarea
                 name="message"
-                className="mt-2 w-full p-4 text-[#606060] text-xs bg-[#F4F4F5] rounded-[10px]"
+                className="mt-2 w-full p-4 text-[#606060] text-xs bg-[#F4F4F5] rounded-[10px] outline-none hover:ring-1 hover:ring-[#5A9BFC]"
                 rows="4"
                 placeholder="What are you planning to build?"
                 value={formData.message}
