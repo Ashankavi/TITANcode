@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
+import Talks from "./Talks";
 
 import Homeimg from "../Assets/Portfolio/rocket.png"
 import Photographer from "../Assets/Portfolio/photographer.png"
@@ -96,6 +97,10 @@ const Portfolio = () => {
         ))}
       </div>
     </div>
+
+        {/* Talks Section Start */}
+        <Talks />
+        {/* Talks Section End */}
 
     </div>
   )
