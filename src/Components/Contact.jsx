@@ -71,32 +71,34 @@ const Contact = () => {
       <section className="flex justify-center ">
         <div className="grid w-full grid-cols-1 gap-8 p-8 justify-center bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px] md:grid-cols-2">
           <div>
-            <h2 className="mb-4 text-2xl text-[#0090FF] md:text-5xl font-bold uppercase">SEND US A MESSAGE</h2>
-            <p className="mb-4 text-gray-700">
+            <h2 className="mb-4 text-2xl md:text-5xl text-[#0090FF]  font-bold uppercase">SEND US A MESSAGE</h2>
+            <p className="mb-4  text-gray-700 text-[14px] md:text-[16px]">
               We'd love to hear from you! Whether you have a question, need support, or are interested in our services, feel free to reach out to us using the contact details below. Our team is here to assist you and ensure you have the best experience possible.
             </p>
             <div className="mb-4">
               <h3 className="font-bold">Phone</h3>
-              <p>+94 77 565 5031</p>
-              <p>Monday to Friday: 9:00 AM - 6:00 PM</p>
+              <p className='text-[14px] md:text-[16px]'>+94 77 565 5031</p>
+              <p className='text-[14px] md:text-[16px]'>Monday to Friday: 9:00 AM - 6:00 PM</p>
             </div>
             <div className="mb-4">
               <h3 className="font-bold">Email</h3>
-              <p>sltitancode@gmail.com</p>
+              <p className='text-[14px] md:text-[16px] hover:text-[#0090FF] cursor-pointer'>sltitancode@gmail.com</p>
             </div>
             <div className="mb-4">
               <h3 className="font-bold">Address</h3>
+              <div className='text-[14px] md:text-[16px]'>
               <p>St. Anthony's Mawatha,</p>
               <p>Colombo 00300,</p>
               <p>Sri Lanka</p>
+              </div>
             </div>
             <div className="flex my-10 space-x-4">
-              <a href="#" className="text-black hover:text-gray-600"><FaLinkedin size="22" /></a>
-              <a href="#" className="text-black hover:text-gray-600"><FaTwitter size="22" /></a>
-              <a href="#" className="text-black hover:text-gray-600"><FaFacebook size="22" /></a>
-              <a href="#" className="text-black hover:text-gray-600"><FaInstagram size="22" /></a>
-              <a href="#" className="text-black hover:text-gray-600"><FaDribbble size="22" /></a>
-              <a href="#" className="text-black hover:text-gray-600"><FaBehance size="22" /></a>
+              <a href="#" className="text-black hover:text-[#0090FF]"><FaLinkedin size="22" /></a>
+              <a href="#" className="text-black hover:text-[#0090FF]"><FaTwitter size="22" /></a>
+              <a href="#" className="text-black hover:text-[#0090FF]"><FaFacebook size="22" /></a>
+              <a href="#" className="text-black hover:text-[#0090FF]"><FaInstagram size="22" /></a>
+              <a href="#" className="text-black hover:text-[#0090FF]"><FaDribbble size="22" /></a>
+              <a href="#" className="text-black hover:text-[#0090FF]"><FaBehance size="22" /></a>
             </div>
           </div>
           <form className="space-y-4" onSubmit={handleSubmit}>

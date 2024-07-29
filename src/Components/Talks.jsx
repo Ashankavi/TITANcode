@@ -16,13 +16,12 @@ const Talks = () => {
           Let’s Talk <span className="ml-2">→</span>
         </button>
         <div className="flex space-x-4">
-          <a href="#" className="text-black hover:text-gray-600"><FaLinkedin size="22" /></a>
-          <a href="#" className="text-black hover:text-gray-600"><FaTwitter size="22" /></a>
-          <a href="#" className="text-black hover:text-gray-600"><FaFacebook size="22" /></a>
-          <a href="#" className="text-black hover:text-gray-600"><FaInstagram size="22" /></a>
-          <a href="#" className="text-black hover:text-gray-600"><FaDribbble size="22" /></a>
-          <a href="#" className="text-black hover:text-gray-600"><FaBehance size="22" /></a>
-
+        <a href="#" className="text-black hover:text-[#0090FF]"><FaLinkedin size="22" /></a>
+              <a href="#" className="text-black hover:text-[#0090FF]"><FaTwitter size="22" /></a>
+              <a href="#" className="text-black hover:text-[#0090FF]"><FaFacebook size="22" /></a>
+              <a href="#" className="text-black hover:text-[#0090FF]"><FaInstagram size="22" /></a>
+              <a href="#" className="text-black hover:text-[#0090FF]"><FaDribbble size="22" /></a>
+              <a href="#" className="text-black hover:text-[#0090FF]"><FaBehance size="22" /></a>
         </div>
       </div>
     </div>
