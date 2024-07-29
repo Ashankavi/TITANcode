@@ -66,7 +66,7 @@ const Portfolio = () => {
         <select
           value={filter}
           onChange={handleFilterChange}
-          className="p-2 border border-gray-300 rounded"
+          className="p-3 mx-5 bg-[#F4F4F5] rounded-[10px]"
         >
           <option value="All">All</option>
           <option value="E-Commerce">E-Commerce</option>
@@ -80,7 +80,7 @@ const Portfolio = () => {
           <div key={index} className="overflow-hidden bg-gray-100 bg-opacity-75 backdrop-blur-md rounded-[30px] shadow-md card">
             <div className="relative">
               <img src={card.image} alt={card.title} className="object-cover w-full h-48" />
-              <div className="absolute px-2 py-1 text-xs text-white bg-gray-800 rounded top-2 left-2">
+              <div className="absolute px-4 py-1 text-xs text-white bg-gray-100 bg-opacity-[50px] backdrop-blur-md rounded-tl-[20px] top-2 left-2">
                 {card.category}
               </div>
             </div>

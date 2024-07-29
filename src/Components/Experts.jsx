@@ -3,7 +3,7 @@ import groupImage from "../Assets/Home/team.png";
 
 const experts = [
   {
-    name: "Chanodya Niyukshi",
+    name: "Lilly Potter",
     position: "Manager and Accountant",
     company: "TITANCode",
     description: "I oversee day-to-day operations, ensure financial accuracy, and manage budgets to support our team's success and efficiency.",
@@ -11,7 +11,7 @@ const experts = [
     boxPosition: { top: '57%', left: '10%' }
   },
   {
-    name: "Samindu Kusalya",
+    name: "Samindi Kusalya",
     position: "Founder & CEO, ",
     company: "TITANCode",
     description: "As CEO and Founder of TITANcode, I lead our team with a focus on innovation and excellence, ensuring we deliver top-notch tech solutions and drive our mission forward.",
@@ -63,7 +63,7 @@ const Experts = () => {
         {experts.map((expert, index) => (
           <button
             key={index}
-            className="absolute flex items-center justify-center w-6 h-6 hover:bg-[#64bcff] text-white bg-blue-500 rounded-full"
+            className={`absolute flex items-center justify-center w-6 h-6 hover:bg-[#64bcff] text-white rounded-full ${activeExpert === expert ? 'bg-orange-500' : 'bg-blue-500'}`}
             style={expert.positionStyle}
             onClick={() => handleDotClick(expert)}
           >
@@ -72,20 +72,14 @@ const Experts = () => {
         ))}
         {activeExpert && (
           <div
-            className=" p-2 px-4 mr-5 mt-5 bg-gray-100 bg-opacity-75 backdrop-blur-md rounded-[20px] shadow-lg absolute"
+            className="p-2 px-4 mr-5 mt-5 bg-gray-100 bg-opacity-75 backdrop-blur-md rounded-[20px] shadow-lg absolute"
             style={{ top: activeExpert.boxPosition.top, left: activeExpert.boxPosition.left }}
           >
             <h3 className="text-[10px] font-bold sm:text-[10px] md:text-[8px] lg:text-[18px]">{activeExpert.name}</h3>
-            <p className=" font-medium text-[#0090FF] text-[8px] sm:text-[7px] md:text-[8px] lg:text-[15px] ">{activeExpert.position} at {activeExpert.company}</p>
-            <p className=" text-[8px] sm:text-[7px] md:text-[8px] lg:text-[15px]">{activeExpert.description}</p>
+            <p className="font-medium text-[#0090FF] text-[8px] sm:text-[7px] md:text-[8px] lg:text-[15px]">{activeExpert.position} at {activeExpert.company}</p>
+            <p className="text-[8px] sm:text-[7px] md:text-[8px] lg:text-[15px]">{activeExpert.description}</p>
           </div>
         )}
-        {/* <div className="absolute inset-x-0 bottom-2 bg-[#F4F4F5] bg-opacity-75 rounded-[30px] mx-5 p-1 px-10 text-center shadow-lg  o">
-        <p className="text-[8px] sm:text-[7px] md:text-[8px] lg:text-[15px] ">
-            At <span className='text-[#0090FF] leading-normal font-medium'>TITANCode</span>, our diverse team excels in tech, design, and marketing, delivering innovative solutions with a collaborative and passionate approach.
-        </p>
-        </div> */}
-
       </div>
     </div>
   );
