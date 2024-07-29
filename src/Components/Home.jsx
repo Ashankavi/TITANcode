@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import { Link as RouterLink } from 'react-router-dom';
+import Experts from "./Experts";
+import Talks from "./Talks";
+
 import Homeimg from "../Assets/Home/Rectangle 4.png";
 import WeAre from "../Assets/Home/Weare.png";
 import Titan from "../Assets/Home/logoTitan.png";
-import Experts from "./Experts";
-import Talks from "./Talks";
+
 
 const services = [
     {
@@ -115,6 +117,7 @@ const Home = () => {
         {/* Talks Section Start */}
         <Talks />
         {/* Talks Section End */}
+
       </div>
     );
 }

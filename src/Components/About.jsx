@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link as RouterLink } from 'react-router-dom';
+import Experts from "./Experts";
+import Talks from "./Talks";
 
 import Homeimg from "../Assets/Home/Rectangle 4.png"
 import Vision from "../Assets/About/vision.png"
@@ -55,7 +57,15 @@ const About = () => {
           </p>
         </div>
       </div>
-  </section>
+    </section>
+
+          {/* Experts Section Start */}
+          <Experts />
+        {/* Experts Section End */}
+
+        {/* Talks Section Start */}
+        <Talks />
+        {/* Talks Section End */}
        
 
     </div>
