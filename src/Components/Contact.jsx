@@ -59,9 +59,9 @@ const Contact = () => {
             <p className="text-lg">
               <span className="font-bold text-blue-600">TITANCode</span>  provides expert solutions in web development, mobile apps, UI/UX design, and digital marketing. Our services are designed to enhance your digital presence and drive business success with innovative and effective strategies.
             </p>
-            <RouterLink to="/Contact">
-          <button className="px-6 py-3 mt-4 text-white transition duration-300 bg-blue-600 rounded-lg shadow-md hover:bg-blue-700">Get Started</button>
-          </RouterLink>
+
+          {/* <button className="px-6 py-3 mt-4 text-white transition duration-300 bg-blue-600 rounded-lg shadow-md hover:bg-blue-700">Get Started</button> */}
+
           </div>
           <div className="flex justify-center order-1 mt-12 md:w-1/2 md:order-2 md:mt-0">
             <img className="" src={Homeimg} alt="Careers" />

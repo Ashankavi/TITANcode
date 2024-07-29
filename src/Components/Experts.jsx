@@ -3,8 +3,8 @@ import groupImage from "../Assets/Home/team.png";
 
 const experts = [
   {
-    name: "Lilly Potter",
-    position: "Manager and Accountant",
+    name: "Chanodya Niukshi",
+    position: "Manager and Director",
     company: "TITANCode",
     description: "I oversee day-to-day operations, ensure financial accuracy, and manage budgets to support our team's success and efficiency.",
     positionStyle: { top: '50%', left: '20%' },

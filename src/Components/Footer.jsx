@@ -39,7 +39,7 @@ const Footer = () => {
             <h2 className="mb-4 text-lg font-bold">Company</h2>
             <ul className="flex flex-col gap-2 text-sm">
               <li><Link to="/" style={linkStyle('/')}>Home</Link></li>
-              <li><Link to="/about" style={linkStyle('/about')}>About us</Link></li>
+              <li><Link to="/about" style={linkStyle('/about')}>About Us</Link></li>
               <li><Link to="/services" style={linkStyle('/services')}>Services</Link></li>
               <li><Link to="/portfolio" style={linkStyle('/portfolio')}>Portfolio</Link></li>
               <li><Link to="/careers" style={linkStyle('/careers')}>Careers</Link></li>
