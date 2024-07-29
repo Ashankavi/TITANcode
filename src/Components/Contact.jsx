@@ -162,7 +162,7 @@ const Contact = () => {
               {errors.message && <p style={{ fontSize: '12px', color: 'red' }}>{errors.message}</p>}
             </div>
             <div>
-              <button type="submit" className="w-full p-2 text-[14px] font-medium text-white bg-[#5A9BFC] rounded">Send</button>
+              <button type="submit" className="w-full p-2 text-[14px] font-medium text-white hover:bg-[#0090FF] bg-[#5A9BFC] rounded-[10px]">Send</button>
             </div>
           </form>
         </div>
