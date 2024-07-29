@@ -7,7 +7,7 @@ const experts = [
     position: "Manager and Director",
     company: "TITANCode",
     description: "I oversee day-to-day operations, ensure financial accuracy, and manage budgets to support our team's success and efficiency.",
-    positionStyle: { top: '50%', left: '20%' },
+    positionStyle: { top: '45%', left: '20%' },
     boxPosition: { top: '57%', left: '10%' }
   },
   {

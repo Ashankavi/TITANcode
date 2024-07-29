@@ -7,38 +7,46 @@ import Talks from "./Talks";
 import Homeimg from "../Assets/Home/Rectangle 4.png";
 import WeAre from "../Assets/Home/Weare.png";
 import Titan from "../Assets/Home/logoTitan.png";
+import WebIcon from "../Assets/Home/Icons/Webicon.png";
+import AppIcon from "../Assets/Home/Icons/Appicon.png";
+import PossIcon from "../Assets/Home/Icons/Possicon.png";
+import UIUXIcon from "../Assets/Home/Icons/UIUXicon.png";
+import GraphicIcon from "../Assets/Home/Icons/Graphicicon.png";
+import MarketingIcon from "../Assets/Home/Icons/Marketingicon.png";
+
+
 
 
 const services = [
     {
         title: "WEB APPLICATION",
         description: "Build captivating, responsive websites that engage your audience and elevate your online presence with our web development services.",
-        image: Titan
+        image: WebIcon
     },
     {
         title: "MOBILE APPLICATION",
         description: "Bring your ideas to life with our expert mobile and web app development services, delivering scalable and high-performance solutions tailored to your needs.",
-        image: Titan
+        image: AppIcon
     },
     {
         title: "POS SYSTEM",
         description: "Enhance your business operations with our customizable POS systems, providing efficient transactions, real-time inventory management, and solutions to boost efficiency and customer service.",
-        image: Titan
+        image: PossIcon
     },
     {
         title: "GRAPHIC DESIGNING",
         description: "Elevate your brand identity with our creative graphic design services, featuring eye-catching visuals and compelling designs.",
-        image: Titan
+        image: GraphicIcon
     },
     {
         title: "UI/UX DESIGNING",
         description: "We specialize in UI/UX design to craft intuitive, visually appealing interfaces that enhance user experiences and improve interaction with your product.",
-        image: Titan
+        image: UIUXIcon
     },
     {
         title: "DIGITAL MARKETING",
         description: "Enhance your online presence and attract customers with our digital marketing services. We provide strategies to boost visibility, increase traffic, and engage your audience.",
-        image: Titan
+        image: MarketingIcon
     }
 ];
 
