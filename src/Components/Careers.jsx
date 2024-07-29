@@ -59,9 +59,9 @@ const Card = ({ title, description, points }) => {
   };
 
   return (
-    <div className="mb-4 transition duration-500 bg-[#F4F4F5] rounded-[50px] ">
+    <div className="mb-4 transition duration-500 bg-[#F4F4F5] rounded-[50px]">
       <div className="flex items-center justify-between p-4 cursor-pointer" onClick={toggleOpen}>
-        <span className="ml-2 font-semibold text-[15px] md:text-[15px] lg:text-[20px] ">{title}</span>
+        <span className="ml-2 font-semibold text-[15px] md:text-[15px] lg:text-[20px]">{title}</span>
         <div className="flex items-center ml-5 text-gray-500">
           <span className="mr-8 text-[10px] md:text-[15px] lg:text-[15px]">Full Time</span>
           <img
@@ -72,17 +72,15 @@ const Card = ({ title, description, points }) => {
         </div>
       </div>
       <div className={`overflow-hidden transition-all duration-500 ${isOpen ? 'max-h-screen' : 'max-h-0'}`}>
-        {isOpen && (
-          <div className="p-4 bg-gray-50">
-            <h2 className="mb-2 text-[12px] md:text-[15px] lg:text-[17px] font-semibold ">{description}</h2>
-            <ul className="pl-5 mb-4 list-disc text-[10px] md:text-[15px] lg:text-[15px]">
-              {points.map((point, index) => (
-                <li key={index} className="mb-1">{point}</li>
-              ))}
-            </ul>
-            <button className="px-4 py-2 text-white bg-blue-500 rounded">Apply</button>
-          </div>
-        )}
+        <div className="p-4 bg-gray-50">
+          <h2 className="mb-2 text-[12px] md:text-[15px] lg:text-[17px] font-semibold">{description}</h2>
+          <ul className="pl-5 mb-4 list-disc text-[10px] md:text-[15px] lg:text-[15px]">
+            {points.map((point, index) => (
+              <li key={index} className="mb-1">{point}</li>
+            ))}
+          </ul>
+          <button className="px-4 py-2 text-white bg-blue-500 rounded">Apply</button>
+        </div>
       </div>
     </div>
   );
