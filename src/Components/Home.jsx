@@ -102,7 +102,7 @@ const Home = () => {
             <div className="mx-auto max-w-7xl">
                 <RouterLink to="/services">
                     <h1 className="text-4xl mx-5 text-[#0090FF] md:text-6xl font-bold mb-6 uppercase text-center">OUR SERVICES</h1>
-                    <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
+                    <div className="grid grid-cols-1 mx-5 gap-8 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
                         {services.map((service, index) => (
                             <div key={index} className="bg-[#F4F4F5] p-6 rounded-[30px]">
                                 <div className="flex items-center justify-end mb-4">
