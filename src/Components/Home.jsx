@@ -4,6 +4,8 @@ import { Link as RouterLink } from 'react-router-dom';
 import Homeimg from "../Assets/Home/Rectangle 4.png";
 import WeAre from "../Assets/Home/Weare.png";
 import Titan from "../Assets/Home/logoTitan.png";
+import Experts from "./Experts";
+import Talks from "./Talks";
 
 const services = [
     {
@@ -105,6 +107,14 @@ const Home = () => {
             </div>
         </section>
         {/* Our Services End */}
+
+        {/* Experts Section Start */}
+        <Experts />
+        {/* Experts Section End */}
+
+        {/* Talks Section Start */}
+        <Talks />
+        {/* Talks Section End */}
       </div>
     );
 }

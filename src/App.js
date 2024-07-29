@@ -1,10 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import Routes and Route
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
-import Experts from "./Components/Experts";
-import Talks from "./Components/Talks";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Services from "./Components/Services";
@@ -25,8 +23,6 @@ function App() {
           <Route path="/careers" element={<Careers />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Experts />
-        <Talks />
         <Footer />
       </div>
     </Router>
