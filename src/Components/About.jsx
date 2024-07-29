@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link as RouterLink } from 'react-router-dom';
+
 import Homeimg from "../Assets/Home/Rectangle 4.png"
 import Vision from "../Assets/About/vision.png"
 import Mission from "../Assets/About/mission.png"
@@ -15,7 +17,9 @@ const About = () => {
           <p className="text-lg ">
             <span className="font-bold text-blue-600 ">TITANCode</span>  we are dedicated to providing top-notch technology solutions. Our team excels in web development, mobile apps, UI/UX design, and digital marketing. We are committed to turning your ideas into powerful digital experiences and driving your business success.
           </p>
+          <RouterLink to="/Contact">
           <button className="px-6 py-3 mt-4 text-white transition duration-300 bg-blue-600 rounded-lg shadow-md hover:bg-blue-700">Let's Talk</button>
+          </RouterLink>
         </div>
         <div className="flex justify-center order-1 mt-12 md:w-1/2 md:order-2 md:mt-0">
           <img className="" src={Homeimg} /></div>
