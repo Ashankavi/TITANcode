@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+import { Link as RouterLink } from 'react-router-dom';
+import Experts from "./Experts";
+import Talks from "./Talks";
+
 import Homeimg from "../Assets/Careers/careers.png";
 import ME from "../Assets/Careers/me.png";
 import Arrow from "../Assets/Careers/arrow.png";
@@ -139,6 +143,15 @@ const Careers = () => {
           ))}
         </div>
       </section>
+
+        {/* Experts Section Start */}
+        <Experts />
+        {/* Experts Section End */}
+
+        {/* Talks Section Start */}
+        <Talks />
+        {/* Talks Section End */}
+
     </div>
   );
 };
