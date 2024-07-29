@@ -75,7 +75,7 @@ const Services = () => {
       </div>
     </section>
 
-        {/* UIUX Section */}
+        {/* UIUX Section Start */}
 
     <section className="bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px] ">
       <div className="flex flex-col items-center mx-auto max-w-8xl md:flex-row">
@@ -90,7 +90,10 @@ const Services = () => {
       </div>
   </section>
 
-        {/* Graphic Section */}
+        {/* UIUX Section End */}
+
+
+        {/* Graphic Section Start */}
 
         <section className="bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px] ">
       <div className="max-w-8xl mx-[auto] flex flex-col md:flex-row items-center">
@@ -105,7 +108,9 @@ const Services = () => {
       </div>
     </section>
 
-        {/* Marketing Section */}
+            {/* Graphic Section End */}
+
+        {/* Marketing Section Start*/}
 
     <section className="bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px] ">
       <div className="flex flex-col items-center mx-auto max-w-8xl md:flex-row">
@@ -119,7 +124,7 @@ const Services = () => {
         </div>
       </div>
     </section>
-       
+               {/* Marketing Section End */}
 
     </div>
   )
