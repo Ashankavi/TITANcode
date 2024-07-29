@@ -83,7 +83,7 @@ const Card = ({ title, description, points }) => {
               <li key={index} className="mb-1">{point}</li>
             ))}
           </ul>
-          <button className="px-4 py-2 text-white bg-blue-500 rounded">Apply</button>
+          <a href="mailto:sltitancode@gmail.com" className="px-4 py-2 text-white bg-blue-500 rounded">Apply</a>
         </div>
       </div>
     </div>
