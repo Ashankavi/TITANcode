@@ -115,7 +115,7 @@ const Services = () => {
           </p>
         </div>
       </div>
-  </section>
+    </section>
        
 
     </div>
