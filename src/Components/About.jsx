@@ -3,7 +3,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import Experts from "./Experts";
 import Talks from "./Talks";
 
-import Homeimg from "../Assets/Home/Rectangle 4.png"
+import Homeimg from "../Assets/About/about.png"
 import Vision from "../Assets/About/vision.png"
 import Mission from "../Assets/About/mission.png"
 

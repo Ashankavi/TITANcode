@@ -1,14 +1,20 @@
 import React, { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import Logo from "../Assets/Home/Logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const location = useLocation();
-  
+  const navigate = useNavigate();
+
   const handleNav = () => {
     setNav(!nav);
+  };
+
+  const handleLinkClick = (path) => {
+    setNav(false); // Hide the nav slider
+    navigate(path); // Navigate to the clicked page
   };
 
   // Inline styles for active link
@@ -26,7 +32,7 @@ const Navbar = () => {
   };
 
   // Determine the link style based on current path
-  const linkStyle = (path) => 
+  const linkStyle = (path) =>
     location.pathname === path ? activeLinkStyle : defaultLinkStyle;
 
   return (
@@ -42,18 +48,18 @@ const Navbar = () => {
         <li className='p-4'><Link to="/contact" style={linkStyle('/contact')}>Contact</Link></li>
       </ul>
       <div onClick={handleNav} className='block mt-5 md:hidden'>
-        {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
+        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
-      <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#FFFFFF] ease-in-out duration-500' : 'fixed left-[-100%]'}>
+      <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#FFFFFF] ease-in-out duration-500' : 'fixed left-[-100%] ease-in-out duration-500'}>
         <img className='h-[25px] m-8' src={Logo} alt="Logo" />
         <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'> </h1>
         <ul className='p-4 tracking-wide uppercase font-londrina'>
-          <li className='p-4'><Link to="/" style={linkStyle('/')}>Home</Link></li>
-          <li className='p-4'><Link to="/about" style={linkStyle('/about')}>About&nbsp;Us</Link></li>
-          <li className='p-4'><Link to="/services" style={linkStyle('/services')}>Services</Link></li>
-          <li className='p-4'><Link to="/portfolio" style={linkStyle('/portfolio')}>Portfolio</Link></li>
-          <li className='p-4'><Link to="/careers" style={linkStyle('/careers')}>Careers</Link></li>
-          <li className='p-4'><Link to="/contact" style={linkStyle('/contact')}>Contact</Link></li>
+          <li className='p-4'><Link to="/" onClick={() => handleLinkClick('/')} style={linkStyle('/')}>Home</Link></li>
+          <li className='p-4'><Link to="/about" onClick={() => handleLinkClick('/about')} style={linkStyle('/about')}>About&nbsp;Us</Link></li>
+          <li className='p-4'><Link to="/services" onClick={() => handleLinkClick('/services')} style={linkStyle('/services')}>Services</Link></li>
+          <li className='p-4'><Link to="/portfolio" onClick={() => handleLinkClick('/portfolio')} style={linkStyle('/portfolio')}>Portfolio</Link></li>
+          <li className='p-4'><Link to="/careers" onClick={() => handleLinkClick('/careers')} style={linkStyle('/careers')}>Careers</Link></li>
+          <li className='p-4'><Link to="/contact" onClick={() => handleLinkClick('/contact')} style={linkStyle('/contact')}>Contact</Link></li>
         </ul>
       </div>
     </div>
