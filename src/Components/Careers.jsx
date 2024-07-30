@@ -11,11 +11,18 @@ import HomeVideo from "../Assets/Home/video.mp4";
 const positions = [
   {
     title: 'Intern Software Engineer',
-    description: 'Description for Software Engineer',
+    description: 'Position Overview:',
+    extraText: 'Additional details for Software Engineer role.',
     points: [
       'Point 1 for Software Engineer',
       'Point 2 for Software Engineer',
       'Point 3 for Software Engineer'
+    ],
+    extraText: 'Additional details for Software Engineer role.',
+    descriptions: [
+      'Software Engineer Description 1',
+      'Software Engineer Description 2',
+      'Software Engineer Description 3'
     ],
   },
   {
@@ -26,6 +33,12 @@ const positions = [
       'Point 2 for UI/UX Designer',
       'Point 3 for UI/UX Designer'
     ],
+    extraText: 'Additional details for UI/UX Designer role.',
+    descriptions: [
+      'UI/UX Designer Description 1',
+      'UI/UX Designer Description 2',
+      'UI/UX Designer Description 3'
+    ],
   },
   {
     title: 'Intern Front-End Developer',
@@ -34,6 +47,12 @@ const positions = [
       'Point 1 for Front-End Developer',
       'Point 2 for Front-End Developer',
       'Point 3 for Front-End Developer'
+    ],
+    extraText: 'Additional details for Front-End Developer role.',
+    descriptions: [
+      'Front-End Developer Description 1',
+      'Front-End Developer Description 2',
+      'Front-End Developer Description 3'
     ],
   },
   {
@@ -44,6 +63,12 @@ const positions = [
       'Point 2 for Full-Stack Developer',
       'Point 3 for Full-Stack Developer'
     ],
+    extraText: 'Additional details for Full-Stack Developer role.',
+    descriptions: [
+      'Full-Stack Developer Description 1',
+      'Full-Stack Developer Description 2',
+      'Full-Stack Developer Description 3'
+    ],
   },
   {
     title: 'Intern Back-End Developer',
@@ -53,10 +78,16 @@ const positions = [
       'Point 2 for Back-End Developer',
       'Point 3 for Back-End Developer'
     ],
+    extraText: 'Additional details for Back-End Developer role.',
+    descriptions: [
+      'Back-End Developer Description 1',
+      'Back-End Developer Description 2',
+      'Back-End Developer Description 3'
+    ],
   },
 ];
 
-const Card = ({ title, description, points }) => {
+const Card = ({ title, description, points, extraText, descriptions }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleOpen = () => {
@@ -82,6 +113,12 @@ const Card = ({ title, description, points }) => {
           <ul className="pl-5 mb-4 list-disc text-[10px] md:text-[15px] lg:text-[15px]">
             {points.map((point, index) => (
               <li key={index} className="mb-1">{point}</li>
+            ))}
+          </ul>
+          <p className="mb-2 text-[12px] md:text-[15px] lg:text-[17px]">{extraText}</p>
+          <ul className="pl-5 mb-4 list-disc text-[10px] md:text-[15px] lg:text-[15px]">
+            {descriptions.map((desc, index) => (
+              <li key={index} className="mb-1">{desc}</li>
             ))}
           </ul>
           <a href="mailto:sltitancode@gmail.com" className="px-4 py-2 text-white bg-blue-500 rounded">Apply</a>
@@ -147,7 +184,7 @@ const Careers = () => {
         <div className="mx-5 max-w-8xl">
           <h1 className="text-2xl text-[#0090FF] md:text-5xl font-bold mb-10 mx-2 uppercase">AVAILABLE POSITIONS</h1>
           {positions.map((position, index) => (
-            <Card key={index} title={position.title} description={position.description} points={position.points} />
+            <Card key={index} title={position.title} description={position.description} points={position.points} extraText={position.extraText} descriptions={position.descriptions} />
           ))}
         </div>
       </section>
