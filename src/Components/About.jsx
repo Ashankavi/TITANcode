@@ -6,13 +6,21 @@ import Talks from "./Talks";
 import Homeimg from "../Assets/About/about.png"
 import Vision from "../Assets/About/vision.png"
 import Mission from "../Assets/About/mission.png"
+import HomeVideo from "../Assets/About/video.mp4"
 
 const About = () => {
   return (
     <div>
 
-    <section className="bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px] ">
-      <div className="flex flex-col items-center mx-auto max-w-8xl md:flex-row">
+      <section className="relative bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px] overflow-hidden">
+            <video
+                autoPlay
+                loop
+                muted
+                className="absolute top-0 left-0 object-cover w-full h-full"
+                src={HomeVideo}
+            />
+        <div className="relative flex flex-col items-center mx-auto max-w-8xl md:flex-row">
         <div className="order-2 mx-5 md:w-1/2 md:order-1">
           <p className="font-medium text-blue-600 ">"WE ARE A LEADING PROVIDER OF TECHNOLOGY SOLUTIONS"</p>
           <h1 className="my-4 text-4xl font-bold uppercase md:text-6xl">About Us</h1>

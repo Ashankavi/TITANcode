@@ -36,7 +36,7 @@ const Navbar = () => {
     location.pathname === path ? activeLinkStyle : defaultLinkStyle;
 
   return (
-    <div className='flex max-w-auto mx-8 mt-5 font-bold px-10 text-black bg-[#FFFFFF] rounded-[50px]'>
+    <div className='flex max-w-auto mx-8 mt-5 font-bold px-10 text-black bg-[#FFFFFF] rounded-[50px] z-50'>
       <img className='h-[20px] my-5' src={Logo} alt="Logo" />
       <h1 className='w-full text-3xl font-bold text-[#00df9a]'> </h1>
       <ul className='hidden font-sans font-normal tracking-wide md:flex'>
@@ -50,7 +50,7 @@ const Navbar = () => {
       <div onClick={handleNav} className='block mt-5 md:hidden'>
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
-      <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#FFFFFF] ease-in-out duration-500' : 'fixed left-[-100%] ease-in-out duration-500'}>
+      <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#FFFFFF] ease-in-out duration-500 z-50' : 'fixed left-[-100%] ease-in-out duration-500 z-50'}>
         <img className='h-[25px] m-8' src={Logo} alt="Logo" />
         <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'> </h1>
         <ul className='p-4 tracking-wide uppercase font-londrina'>
