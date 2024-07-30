@@ -36,10 +36,10 @@ const Navbar = () => {
     location.pathname === path ? activeLinkStyle : defaultLinkStyle;
 
   return (
-    <div className='flex max-w-auto mx-8 mt-5 font-bold px-10 text-black bg-[#FFFFFF] rounded-[50px] z-50'>
+    <div className='flex items-center justify-between max-w-auto mx-8 mt-5 font-bold px-10 text-black bg-[#FFFFFF] rounded-[50px] z-50'>
       <img className='h-[20px] my-5' src={Logo} alt="Logo" />
-      <h1 className='w-full text-3xl font-bold text-[#00df9a]'> </h1>
-      <ul className='hidden font-sans font-normal tracking-wide md:flex'>
+      <h1 className='w-full text-3xl font-bold text-[#00df9a]'></h1>
+      <ul className='hidden font-sans font-normal tracking-wide lg:flex'>
         <li className='p-4'><Link to="/" style={linkStyle('/')}>Home</Link></li>
         <li className='p-4'><Link to="/about" style={linkStyle('/about')}>About&nbsp;Us</Link></li>
         <li className='p-4'><Link to="/services" style={linkStyle('/services')}>Services</Link></li>
@@ -47,12 +47,12 @@ const Navbar = () => {
         <li className='p-4'><Link to="/careers" style={linkStyle('/careers')}>Careers</Link></li>
         <li className='p-4'><Link to="/contact" style={linkStyle('/contact')}>Contact</Link></li>
       </ul>
-      <div onClick={handleNav} className='block mt-5 md:hidden'>
+      <div onClick={handleNav} className='block cursor-pointer lg:hidden'>
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
-      <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#FFFFFF] ease-in-out duration-500 z-50' : 'fixed left-[-100%] ease-in-out duration-500 z-50'}>
+      <div className={`fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#FFFFFF] ease-in-out duration-500 z-50 transform ${nav ? 'translate-x-0' : '-translate-x-full'}`}>
         <img className='h-[25px] m-8' src={Logo} alt="Logo" />
-        <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'> </h1>
+        <h1 className='w-full text-3xl font-bold text-[#00df9a] m-4'></h1>
         <ul className='p-4 tracking-wide uppercase font-londrina'>
           <li className='p-4'><Link to="/" onClick={() => handleLinkClick('/')} style={linkStyle('/')}>Home</Link></li>
           <li className='p-4'><Link to="/about" onClick={() => handleLinkClick('/about')} style={linkStyle('/about')}>About&nbsp;Us</Link></li>
