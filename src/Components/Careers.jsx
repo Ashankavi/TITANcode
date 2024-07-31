@@ -220,7 +220,7 @@ const Careers = () => {
             </p>
             <h1 className="my-4 text-4xl font-bold md:text-6xl">BECOME A TITANcoder</h1>
             <p className="text-lg">
-              <span className="font-bold text-blue-600">TITANCode</span> we are dedicated to providing top-notch technology solutions. Our team excels in web development, mobile apps, UI/UX design, and digital marketing. We are committed to turning your ideas into powerful digital experiences and driving your business success.
+            Elevate your career with <span className="font-bold text-blue-600 "> TITANCode</span> ! Explore our current job openings and join a team dedicated to innovation and excellence. Find your next opportunity and make an impact with us. Apply now and start your journey at TITANcode!
             </p>
             <RouterLink to="/Contact">
               <button className="px-6 py-3 mt-4 text-white transition duration-300 bg-blue-600 rounded-lg shadow-md hover:bg-blue-700">Let's Talk</button>

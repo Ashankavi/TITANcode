@@ -57,8 +57,8 @@ const Portfolio = () => {
         <div className="order-2 mx-5 md:w-1/2 md:order-1">
           <p className="font-medium text-blue-600 ">"WE ARE A LEADING PROVIDER OF TECHNOLOGY SOLUTIONS"</p>
           <h1 className="my-4 text-4xl font-bold uppercase md:text-6xl">Our Success Stories</h1>
-          <p className="text-lg ">
-            <span className="font-bold text-blue-600 ">TITANCode</span>  we are dedicated to providing top-notch technology solutions. Our team excels in web development, mobile apps, UI/UX design, and digital marketing. We are committed to turning your ideas into powerful digital experiences and driving your business success.
+          <p className="text-lg ">At
+            <span className="font-bold text-blue-600 "> TITANCode</span> Discover our portfolio of successful projects in web development, mobile apps, UI/UX design, and digital marketing. Each project showcases our dedication to delivering innovative and high-quality solutions that help businesses thrive. Explore our achievements and see how we've made an impact.
           </p>
           <RouterLink to="/Home">
           <button className="px-6 py-3 mt-4 text-white transition duration-300 bg-blue-600 rounded-lg shadow-md hover:bg-blue-700">Let's Talk</button>
