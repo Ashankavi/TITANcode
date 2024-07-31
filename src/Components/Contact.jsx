@@ -34,7 +34,10 @@ const Contact = () => {
     e.preventDefault();
     const formErrors = validate();
     if (Object.keys(formErrors).length === 0) {
-      console.log('Form Data:', formData);
+      const { name, email, phone, subject, message } = formData;
+      const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=sltitancode@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nPhone: ${phone}\n\nMessage:\n${message}`)}`;
+      window.open(mailtoLink, '_blank');
+
       setFormData({
         name: '',
         email: '',
@@ -51,13 +54,13 @@ const Contact = () => {
     <div>
       {/* Hero Section */}
       <section className="relative bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px] overflow-hidden">
-            <video
-                autoPlay
-                loop
-                muted
-                className="absolute top-0 left-0 object-cover w-full h-full"
-                src={HomeVideo}
-            />
+        <video
+          autoPlay
+          loop
+          muted
+          className="absolute top-0 left-0 object-cover w-full h-full"
+          src={HomeVideo}
+        />
         <div className="relative flex flex-col items-center mx-auto max-w-8xl md:flex-row">
           <div className="order-2 mx-5 md:w-1/2 md:order-1">
             <p className="font-medium text-blue-600">
@@ -65,7 +68,7 @@ const Contact = () => {
             </p>
             <h1 className="my-4 text-4xl font-bold md:text-6xl">LET’S MAKE SOMETHING NEW TOGETHER</h1>
             <p className="text-lg">
-              <span className="font-bold text-blue-600">TITANCode</span>  provides expert solutions in web development, mobile apps, UI/UX design, and digital marketing. Our services are designed to enhance your digital presence and drive business success with innovative and effective strategies.
+              We’d love to hear from you! Whether you have questions, need support, or want to discuss a project, feel free to reach out. Use the form below or get in touch via email. Our team is here to help and will respond as soon as possible.
             </p>
 
           {/* <button className="px-6 py-3 mt-4 text-white transition duration-300 bg-blue-600 rounded-lg shadow-md hover:bg-blue-700">Get Started</button> */}
@@ -97,13 +100,13 @@ const Contact = () => {
             <div className="mb-4">
               <h3 className="font-bold">Address</h3>
               <div className='mt-2 text-[14px] md:text-[16px]'>
-              <p>St. Anthony's Mawatha,</p>
-              <p>Colombo 00300,</p>
-              <p>Sri Lanka</p>
+                <p>St. Anthony's Mawatha,</p>
+                <p>Colombo 00300,</p>
+                <p>Sri Lanka</p>
               </div>
             </div>
             <div className="my-5 ">
-            <h3 className="font-bold">Our Social</h3>
+              <h3 className="font-bold">Our Social</h3>
               <div className="flex mt-4 space-x-4">
                 <a href="#" className="text-black hover:text-[#0090FF]"><FaLinkedin size="22" /></a>
                 <a href="#" className="text-black hover:text-[#0090FF]"><FaTwitter size="22" /></a>
