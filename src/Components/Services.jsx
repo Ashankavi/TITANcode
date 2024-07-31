@@ -29,7 +29,7 @@ const Services = () => {
             <p className="font-medium text-blue-600">"WE ARE A LEADING PROVIDER OF TECHNOLOGY SOLUTIONS"</p>
             <h1 className="my-4 text-4xl font-bold uppercase md:text-6xl">Our Services</h1>
             <p className="text-lg">
-              <span className="font-bold text-blue-600">TITANCode</span> we are dedicated to providing top-notch technology solutions. Our team excels in web development, mobile apps, UI/UX design, and digital marketing. We are committed to turning your ideas into powerful digital experiences and driving your business success.
+              <span className="font-bold text-blue-600">TITANCode</span> we specialize in delivering top-notch services in web development, mobile app creation, UI/UX design, and digital marketing. Our expert team is dedicated to helping businesses thrive through innovative and high-quality solutions tailored to meet your unique needs. Partner with us to drive your business forward with exceptional technology solutions.
             </p>
             <RouterLink to="/Contact">
               <button className="px-6 py-3 mt-4 text-white transition duration-300 bg-blue-600 rounded-lg shadow-md hover:bg-blue-700">Let's Talk</button>
