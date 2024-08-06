@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link as RouterLink } from 'react-router-dom';
-import Experts from "./Experts";
+import Talks from "./Talks";
 
 const Terms = () => {
   return (
@@ -12,9 +11,7 @@ const Terms = () => {
         {/* Effective Date */}
         <h2 className="text-[18px]  lg:text-2xl text-[#0090FF] font-bold  uppercase mt-8 mb-5">Effective Date: 02 July 2024</h2>
         <p className="sm:text-left text-[12px] lg:text-[15px] text-[#727272]">
-              TITANCode delivers cutting-edge technology solutions, specializing in web development,
-              mobile apps, UI/UX design, and digital marketing. Our expert team is dedicated to
-              transforming your ideas into impactful digital experiences, driving your business forward.
+        Welcome to TITANcode! By accessing or using our website and services, you agree to comply with and be bound by the following Terms & Conditions. Please read them carefully.
             </p>
 
         {/* 1. Services */}
@@ -89,9 +86,11 @@ const Terms = () => {
                 <p className="sm:text-left text-[12px] lg:text-[15px] text-[#727272]"> 
                 If you have any questions or concerns regarding these Terms & Conditions, please contact us at:
                 </p>                                                                   
-
       </div>
       </div>
+              {/* Talks Section Start */}
+              <Talks />
+        {/* Talks Section End */}
     </div>
   )
 }
