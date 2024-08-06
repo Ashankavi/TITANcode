@@ -59,9 +59,9 @@ const About = () => {
           <img src={Mission} alt="Vision" />
         </div>
         <div className="order-2 mx-5 mt-12 md:order-1 md:mt-0 md:w-1/2">
-          <h1 className="text-4xl text-[#0090FF] md:text-6xl font-bold mb-6 uppercase">Our Vision</h1>
+          <h1 className="text-4xl text-[#0090FF] md:text-6xl font-bold mb-6 uppercase">Our Mission</h1>
           <p className="mb-6 text-lg">
-            <span className="font-bold text-blue-600">TITANCode</span> we aim to be at the forefront of technology, delivering innovative solutions that drive progress and transformation. Our goal is to empower businesses with advanced software and strategic design to shape the future of digital experiences.
+            <span className="font-bold text-blue-600">TITANCode</span> Empowering businesses with cutting-edge technology and innovative solutions to drive success and excellence in the digital world.
           </p>
         </div>
       </div>
