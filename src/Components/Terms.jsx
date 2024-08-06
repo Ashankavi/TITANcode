@@ -46,11 +46,49 @@ const Terms = () => {
                 We grant you a non-exclusive, non-transferable license to use the deliverables provided for the purpose intended.
                 </p> 
 
-        {/* 5. Confidentiality*/}
+        {/* 5. Confidentiality */}
         <h2 className="text-[18px]  lg:text-2xl text-[#0090FF] font-bold  uppercase mt-8 mb-5">5. Confidentiality</h2>
                 <p className="sm:text-left text-[12px] lg:text-[15px] text-[#727272]"> 
                 Both parties agree to keep all confidential information received during the course of service delivery confidential and not to disclose it to any third party without prior written consent.
-                </p>                 
+                </p>        
+
+        {/* 6. Termination */}
+        <h2 className="text-[18px]  lg:text-2xl text-[#0090FF] font-bold  uppercase mt-8 mb-5">5. Confidentiality</h2>
+            <p className="sm:text-left text-[12px] lg:text-[15px] text-[#727272]"> <span className='font-bold '>Termination by You: </span>
+                You may terminate our services at any time with written notice. Payment for services rendered up to the termination date will still be required.
+                <br /> <span className='font-bold '>Termination by US: </span>
+                We reserve the right to terminate services if you breach any of these Terms & Conditions or fail to make timely payments.
+            </p>         
+
+        {/* 7. Limitation of Liability */}
+        <h2 className="text-[18px]  lg:text-2xl text-[#0090FF] font-bold  uppercase mt-8 mb-5">5. Confidentiality</h2>
+                <p className="sm:text-left text-[12px] lg:text-[15px] text-[#727272]"> 
+                TITANcode is not liable for any indirect, incidental, special, or consequential damages arising out of or in connection with the use of our services. Our total liability is limited to the amount paid for the specific services causing the damage.
+                </p>      
+
+        {/* 7. Limitation of Liability */}
+        <h2 className="text-[18px]  lg:text-2xl text-[#0090FF] font-bold  uppercase mt-8 mb-5">8. Indemnification</h2>
+                <p className="sm:text-left text-[12px] lg:text-[15px] text-[#727272]"> 
+                You agree to indemnify and hold TITANcode harmless from any claims, losses, liabilities, damages, costs, or expenses arising from your use of our services or violation of these Terms & Conditions.
+                </p>              
+
+        {/* 9. Governing Law */}
+        <h2 className="text-[18px]  lg:text-2xl text-[#0090FF] font-bold  uppercase mt-8 mb-5">9. Governing Law</h2>
+                <p className="sm:text-left text-[12px] lg:text-[15px] text-[#727272]"> 
+                These Terms & Conditions are governed by and construed in accordance with the laws of [Your Jurisdiction]. Any disputes arising under these Terms & Conditions will be subject to the exclusive jurisdiction of the courts in [Your Jurisdiction].
+                </p>     
+
+        {/* 10. Changes to Terms */}
+        <h2 className="text-[18px]  lg:text-2xl text-[#0090FF] font-bold  uppercase mt-8 mb-5">10. Changes to Terms</h2>
+                <p className="sm:text-left text-[12px] lg:text-[15px] text-[#727272]"> 
+                We may update these Terms & Conditions from time to time. The revised terms will be effective immediately upon posting on our website. Your continued use of our services constitutes acceptance of the updated terms.
+                </p>      
+
+        {/* 11. Contact Us */}
+        <h2 className="text-[18px]  lg:text-2xl text-[#0090FF] font-bold  uppercase mt-8 mb-5">11. Contact Us</h2>
+                <p className="sm:text-left text-[12px] lg:text-[15px] text-[#727272]"> 
+                If you have any questions or concerns regarding these Terms & Conditions, please contact us at:
+                </p>                                                                   
 
       </div>
       </div>
