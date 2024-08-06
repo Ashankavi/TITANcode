@@ -5,8 +5,8 @@ const Terms = () => {
   return (
     <div>
     <div className="bg-white my-8 mx-8 py-6 md:px-16 rounded-[50px] flex flex-col lg:flex-row  ">
-      <div className="mx-5 mb-6 lg:text-left lg:mb-0">
-        <h1 className="text-[20px]  lg:text-4xl text-[#0090FF] font-bold mt-5 uppercase "> Terms & Conditions</h1>
+      <div className="mx-5 my-6 lg:text-left lg:mb-0">
+        <h1 className="text-[20px]  lg:text-4xl text-[#0090FF] font-bold uppercase "> Terms & Conditions</h1>
 
         {/* Effective Date */}
         <h2 className="text-[18px]  lg:text-2xl text-[#0090FF] font-bold  uppercase mt-8 mb-5">Effective Date: 02 July 2024</h2>

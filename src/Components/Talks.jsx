@@ -16,7 +16,7 @@ const Talks = () => {
       <div className="flex flex-col items-center lg:items-start">
         <p className="text-center text-gray-600 lg:mb-1 lg:text-left">Ready to build great products?</p>
         <RouterLink to="/Contact">
-        <button className="flex items-center px-4 py-2 my-6 text-white bg-black rounded-full hover:bg-gray-800">
+        <button className="flex items-center px-4 py-2 my-6 text-white bg-black rounded-full hover:bg-[#0090FF]">
           Let’s Talk <span className="ml-2">→</span>
         </button>
         </RouterLink>
