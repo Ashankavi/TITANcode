@@ -9,6 +9,8 @@ import Services from "./Components/Services";
 import Portfolio from "./Components/Portfolio";
 import Careers from "./Components/Careers";
 import Contact from "./Components/Contact";
+import Terms from "./Components/Terms";
+import Policy from "./Components/Policy";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/policy" element={<Policy />} />
         </Routes>
         <Footer />
       </div>

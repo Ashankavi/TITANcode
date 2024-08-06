@@ -61,7 +61,7 @@ const Footer = () => {
             <h2 className="mb-4 text-lg font-bold">Help</h2>
             <ul className="flex flex-col gap-2 text-sm">
               <li><Link to="/terms" style={linkStyle('/terms')}>Terms & Conditions</Link></li>
-              <li><Link to="/privacy" style={linkStyle('/privacy')}>Privacy Policy</Link></li>
+              <li><Link to="/policy" style={linkStyle('/policy')}>Privacy Policy</Link></li>
             </ul>
           </div>
         </div>
