@@ -32,7 +32,22 @@ const About = () => {
           </RouterLink>
         </div>
         <div className="flex justify-center order-1 mt-12 md:w-1/2 md:order-2 md:mt-0">
-          <img className="" src={Homeimg} /></div>
+          <img className="" src={Homeimg} style={{
+                            animation: 'upAndDown 3s ease-in-out infinite',
+                        }} 
+                    />
+                    <style>
+                        {`
+                            @keyframes upAndDown {
+                                0%, 100% {
+                                    transform: translateY(0);
+                                }
+                                50% {
+                                    transform: translateY(-20px);
+                                }
+                            }
+                        `}
+                    </style></div>
       </div>
     </section>
 
@@ -41,7 +56,24 @@ const About = () => {
     <section className="bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px] ">
       <div className="max-w-8xl mx-[auto] flex flex-col md:flex-row items-center">
       <div className="flex justify-center order-1 mt-12 md:w-1/2 md:order-2 md:mt-0">
-          <img className="" src={Vision} /> </div>
+          <img className="" src={Vision} style={{
+                            animation: 'upAndDown 3s ease-in-out infinite',
+                        }} 
+                    />
+                    <style>
+                        {`
+                            @keyframes upAndDown {
+                                0%, 100% {
+                                    transform: translateY(0);
+                                }
+                                50% {
+                                    transform: translateY(-20px);
+                                }
+                            }
+                        `}
+                    </style>
+                    
+         </div>
         <div className="order-2 mx-5 mt-12 md:w-1/2 md:order-2 md:mt-0">
           <h1 className="text-4xl text-[#0090FF] md:text-6xl font-bold mb-6 uppercase">Our Vision</h1>
           <p className="mb-6 text-lg">
@@ -56,7 +88,22 @@ const About = () => {
     <section className="bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px] ">
       <div className="flex flex-col items-center mx-auto max-w-8xl md:flex-row">
         <div className="flex justify-center order-1 mt-12 md:order-2 md:mt-0 md:w-1/2">
-          <img src={Mission} alt="Vision" />
+          <img src={Mission} alt="Vision" style={{
+                            animation: 'upAndDown 3s ease-in-out infinite',
+                        }} 
+                    />
+                    <style>
+                        {`
+                            @keyframes upAndDown {
+                                0%, 100% {
+                                    transform: translateY(0);
+                                }
+                                50% {
+                                    transform: translateY(-20px);
+                                }
+                            }
+                        `}
+                    </style>
         </div>
         <div className="order-2 mx-5 mt-12 md:order-1 md:mt-0 md:w-1/2">
           <h1 className="text-4xl text-[#0090FF] md:text-6xl font-bold mb-6 uppercase">Our Mission</h1>
