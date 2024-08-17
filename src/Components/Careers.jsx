@@ -32,7 +32,7 @@ const positions = [
       'Collaborative and innovative work environment.',
       'Opportunity for growth and potential full-time employment.'
     ],
-    apply: 'Apply via email. Please send your resume, a short description about yourself, and your portfolio and CV as PDF files to sltitancode@gmail.com. Use the subject line "Intern Software Engineer Application - [Your Name]". We look forward to hearing from you!',
+    apply: 'Apply via email. Please send your resume, a short description about yourself, and your portfolio and CV as PDF files to lktitancode@gmail.com. Use the subject line "Intern Software Engineer Application - [Your Name]". We look forward to hearing from you!',
   },
   {
     title: 'Intern UI/UX Designer',
@@ -60,7 +60,7 @@ const positions = [
       'Access to industry-standard tools and resources.',
       'Potential for future full-time employment based on performance.'
     ],
-    apply: 'Apply via email. Please send your resume, a short description about yourself, and your portfolio and CV as PDF files to sltitancode@gmail.com. Use the subject line "Applicatin for Intern Intern UI/UX Designer - [Your Name]". We look forward to hearing from you!',
+    apply: 'Apply via email. Please send your resume, a short description about yourself, and your portfolio and CV as PDF files to lktitancode@gmail.com. Use the subject line "Applicatin for Intern Intern UI/UX Designer - [Your Name]". We look forward to hearing from you!',
   },
   {
     title: 'Intern Front-End Developer',
@@ -86,7 +86,7 @@ const positions = [
       'Flexible working hours and potential for remote work.',
       'Potential for future full-time employment based on performance.'
     ],
-    apply: 'Apply via email. Please send your resume, a short description about yourself, and your portfolio and CV as PDF files to sltitancode@gmail.com. Use the subject line "Applicatin for Intern Front-End Developer - [Your Name]". We look forward to hearing from you!',
+    apply: 'Apply via email. Please send your resume, a short description about yourself, and your portfolio and CV as PDF files to lktitancode@gmail.com. Use the subject line "Applicatin for Intern Front-End Developer - [Your Name]". We look forward to hearing from you!',
   },
   {
     title: 'Intern Full-Stack Developer',
@@ -114,7 +114,7 @@ const positions = [
       'Potential for future full-time employment based on performance.'
 
     ],
-    apply: 'Apply via email. Please send your resume, a short description about yourself, and your portfolio and CV as PDF files to sltitancode@gmail.com. Use the subject line "Applicatin for Intern Full-Stack Developer - [Your Name]". We look forward to hearing from you!',
+    apply: 'Apply via email. Please send your resume, a short description about yourself, and your portfolio and CV as PDF files to lktitancode@gmail.com. Use the subject line "Applicatin for Intern Full-Stack Developer - [Your Name]". We look forward to hearing from you!',
   },
   {
     title: 'Intern Back-End Developer',
@@ -141,7 +141,7 @@ const positions = [
       'Flexible working hours and potential for remote work.',
       'Potential for future full-time employment based on performance.'
     ],
-    apply: 'Apply via email. Please send your resume, a short description about yourself, and your portfolio and CV as PDF files to sltitancode@gmail.com. Use the subject line "Applicatin for Intern Back-End Developer - [Your Name]". We look forward to hearing from you!',
+    apply: 'Apply via email. Please send your resume, a short description about yourself, and your portfolio and CV as PDF files to lktitancode@gmail.com. Use the subject line "Applicatin for Intern Back-End Developer - [Your Name]". We look forward to hearing from you!',
   },
 ];
 
@@ -195,7 +195,7 @@ const Card = ({ title, description, overview, responsibilities, qualifications, 
             <h3 className="mt-4 font-bold">How to Apply</h3>
             <p className='mt-2 mb-8'>{apply}</p>
           </div>
-          <a href="mailto:sltitancode@gmail.com" className="px-4 py-2 text-white bg-blue-500 rounded">Apply</a>
+          <a href="mailto:lktitancode@gmail.com" className="px-4 py-2 text-white bg-blue-500 rounded">Apply</a>
         </div>
       </div>
     </div>
@@ -227,7 +227,22 @@ const Careers = () => {
             </RouterLink>
           </div>
           <div className="flex justify-center order-1 mt-12 md:w-1/2 md:order-2 md:mt-0">
-            <img className="" src={Homeimg} alt="Careers" />
+            <img className="" src={Homeimg} alt="Careers" style={{
+                            animation: 'upAndDown 3s ease-in-out infinite',
+                        }} 
+                    />
+                    <style>
+                        {`
+                            @keyframes upAndDown {
+                                0%, 100% {
+                                    transform: translateY(0);
+                                }
+                                50% {
+                                    transform: translateY(-20px);
+                                }
+                            }
+                        `}
+                    </style>
           </div>
         </div>
       </section>
