@@ -36,7 +36,22 @@ const Services = () => {
             </RouterLink>
           </div>
           <div className="flex justify-center order-1 mt-12 md:w-1/2 md:order-2 md:mt-0">
-            <img className="" src={Homeimg} />
+            <img className="" src={Homeimg} style={{
+                            animation: 'upAndDown 3s ease-in-out infinite',
+                        }} 
+                    />
+                    <style>
+                        {`
+                            @keyframes upAndDown {
+                                0%, 100% {
+                                    transform: translateY(0);
+                                }
+                                50% {
+                                    transform: translateY(-20px);
+                                }
+                            }
+                        `}
+                    </style>
           </div>
         </div>
       </section>
@@ -45,7 +60,22 @@ const Services = () => {
       <section className="bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px] ">
         <div className="max-w-8xl mx-[auto] flex flex-col md:flex-row items-center">
           <div className="flex justify-center order-1 mt-12 md:w-1/2 md:order-2 md:mt-0">
-            <img className="" src={Web} />
+            <img className="" src={Web} style={{
+                            animation: 'upAndDown 3s ease-in-out infinite',
+                        }} 
+                    />
+                    <style>
+                        {`
+                            @keyframes upAndDown {
+                                0%, 100% {
+                                    transform: translateY(0);
+                                }
+                                50% {
+                                    transform: translateY(-20px);
+                                }
+                            }
+                        `}
+                    </style>
           </div>
           <div className="order-2 mx-5 mt-12 md:w-1/2 md:order-2 md:mt-0">
             <h1 className="text-4xl text-[#0090FF] md:text-6xl font-bold mb-6 uppercase">Web Application</h1>
@@ -60,7 +90,22 @@ const Services = () => {
       <section className="bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px] ">
         <div className="flex flex-col items-center mx-auto max-w-8xl md:flex-row">
           <div className="flex justify-center order-1 mt-12 md:order-2 md:mt-0 md:w-1/2">
-            <img src={App} alt="Vision" />
+            <img src={App} alt="Vision" style={{
+                            animation: 'upAndDown 3s ease-in-out infinite',
+                        }} 
+                    />
+                    <style>
+                        {`
+                            @keyframes upAndDown {
+                                0%, 100% {
+                                    transform: translateY(0);
+                                }
+                                50% {
+                                    transform: translateY(-20px);
+                                }
+                            }
+                        `}
+                    </style>
           </div>
           <div className="order-2 mx-5 mt-12 md:order-1 md:mt-0 md:w-1/2">
             <h1 className="text-4xl text-[#0090FF] md:text-6xl font-bold mb-6 uppercase">Mobile Application</h1>
@@ -75,7 +120,22 @@ const Services = () => {
       <section className="bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px] ">
         <div className="max-w-8xl mx-[auto] flex flex-col md:flex-row items-center">
           <div className="flex justify-center order-1 mt-12 md:w-1/2 md:order-2 md:mt-0">
-            <img className="" src={Poss} />
+            <img className="" src={Poss} style={{
+                            animation: 'upAndDown 3s ease-in-out infinite',
+                        }} 
+                    />
+                    <style>
+                        {`
+                            @keyframes upAndDown {
+                                0%, 100% {
+                                    transform: translateY(0);
+                                }
+                                50% {
+                                    transform: translateY(-20px);
+                                }
+                            }
+                        `}
+                    </style>
           </div>
           <div className="order-2 mx-5 mt-12 md:w-1/2 md:order-2 md:mt-0">
             <h1 className="text-4xl text-[#0090FF] md:text-6xl font-bold mb-6 uppercase">Pos system</h1>
@@ -90,7 +150,22 @@ const Services = () => {
       <section className="bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px] ">
         <div className="flex flex-col items-center mx-auto max-w-8xl md:flex-row">
           <div className="flex justify-center order-1 mt-12 md:order-2 md:mt-0 md:w-1/2">
-            <img src={UIUX} alt="Vision" />
+            <img src={UIUX} alt="Vision" style={{
+                            animation: 'upAndDown 3s ease-in-out infinite',
+                        }} 
+                    />
+                    <style>
+                        {`
+                            @keyframes upAndDown {
+                                0%, 100% {
+                                    transform: translateY(0);
+                                }
+                                50% {
+                                    transform: translateY(-20px);
+                                }
+                            }
+                        `}
+                    </style>
           </div>
           <div className="order-2 mx-5 mt-12 md:order-1 md:mt-0 md:w-1/2">
             <h1 className="text-4xl text-[#0090FF] md:text-6xl font-bold mb-6 uppercase">UI/UX designing</h1>
@@ -107,7 +182,22 @@ const Services = () => {
       <section className="bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px] ">
         <div className="max-w-8xl mx-[auto] flex flex-col md:flex-row items-center">
           <div className="flex justify-center order-1 mt-12 md:w-1/2 md:order-2 md:mt-0">
-            <img className="" src={Graphic} />
+            <img className="" src={Graphic} style={{
+                            animation: 'upAndDown 3s ease-in-out infinite',
+                        }} 
+                    />
+                    <style>
+                        {`
+                            @keyframes upAndDown {
+                                0%, 100% {
+                                    transform: translateY(0);
+                                }
+                                50% {
+                                    transform: translateY(-20px);
+                                }
+                            }
+                        `}
+                    </style>
           </div>
           <div className="order-2 mx-5 mt-12 md:w-1/2 md:order-2 md:mt-0">
             <h1 className="text-4xl text-[#0090FF] md:text-6xl font-bold mb-6 uppercase">graphic Designing</h1>
@@ -124,7 +214,22 @@ const Services = () => {
       <section className="bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px] ">
         <div className="flex flex-col items-center mx-auto max-w-8xl md:flex-row">
           <div className="flex justify-center order-1 mt-12 md:order-2 md:mt-0 md:w-1/2">
-            <img src={Marketing} alt="Vision" />
+            <img src={Marketing} alt="Vision" style={{
+                            animation: 'upAndDown 3s ease-in-out infinite',
+                        }} 
+                    />
+                    <style>
+                        {`
+                            @keyframes upAndDown {
+                                0%, 100% {
+                                    transform: translateY(0);
+                                }
+                                50% {
+                                    transform: translateY(-20px);
+                                }
+                            }
+                        `}
+                    </style>
           </div>
           <div className="order-2 mx-5 mt-12 md:order-1 md:mt-0 md:w-1/2">
             <h1 className="text-4xl text-[#0090FF] md:text-6xl font-bold mb-6 uppercase">Digital Marketing</h1>
