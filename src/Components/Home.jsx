@@ -14,9 +14,6 @@ import GraphicIcon from "../Assets/Home/Icons/Graphicicon.png";
 import MarketingIcon from "../Assets/Home/Icons/Marketingicon.png";
 import HomeVideo from "../Assets/Home/video.mp4";
 
-
-
-
 const services = [
     {
         title: "WEB APPLICATION",
@@ -79,7 +76,26 @@ const Home = () => {
                     </Link>
                 </div>
                 <div className="relative flex justify-center order-1 mt-12 md:w-1/2 md:order-2 md:mt-0">
-                    <img className="relative z-10" src={Homeimg} />
+                    <img 
+                        className="relative z-10" 
+                        src={Homeimg} 
+                        alt="Home" 
+                        style={{
+                            animation: 'upAndDown 3s ease-in-out infinite',
+                        }} 
+                    />
+                    <style>
+                        {`
+                            @keyframes upAndDown {
+                                0%, 100% {
+                                    transform: translateY(0);
+                                }
+                                50% {
+                                    transform: translateY(-20px);
+                                }
+                            }
+                        `}
+                    </style>
                 </div>
             </div>
         </section>
@@ -89,7 +105,22 @@ const Home = () => {
         <section id="who-we-are" className="bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px]">
             <div className="max-w-8xl mx-[auto] flex flex-col md:flex-row items-center">
                 <div className="flex justify-center order-1 mt-12 md:w-1/2 md:order-2 md:mt-0">
-                    <img className="" src={WeAre} />
+                    <img className="" src={WeAre} style={{
+                            animation: 'upAndDown 3s ease-in-out infinite',
+                        }} 
+                    />
+                    <style>
+                        {`
+                            @keyframes upAndDown {
+                                0%, 100% {
+                                    transform: translateY(0);
+                                }
+                                50% {
+                                    transform: translateY(-20px);
+                                }
+                            }
+                        `}
+                    </style>
                 </div>
                 <div className="order-2 mx-5 mt-12 md:w-1/2 md:order-2 md:mt-0">
                     <h1 className="text-4xl text-[#0090FF] md:text-6xl font-bold mb-6 uppercase">Who we are</h1>

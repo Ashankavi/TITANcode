@@ -36,7 +36,7 @@ const Contact = () => {
     const formErrors = validate();
     if (Object.keys(formErrors).length === 0) {
       const { name, email, phone, subject, message } = formData;
-      const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=sltitancode@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nPhone: ${phone}\n\nMessage:\n${message}`)}`;
+      const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=lktitancode@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nPhone: ${phone}\n\nMessage:\n${message}`)}`;
       window.open(mailtoLink, '_blank');
 
       setFormData({
@@ -96,7 +96,7 @@ const Contact = () => {
             </div>
             <div className="mb-4">
               <h3 className="font-bold">Email</h3>
-              <a href="mailto:sltitancode@gmail.com" className='mt-4 text-[14px] md:text-[16px] hover:text-[#0090FF] cursor-pointer'>sltitancode@gmail.com</a>
+              <a href="mailto:lktitancode@gmail.com" className='mt-4 text-[14px] md:text-[16px] hover:text-[#0090FF] cursor-pointer'>sltitancode@gmail.com</a>
             </div>
             <div className="mb-4">
               <h3 className="font-bold">Address</h3>
@@ -109,12 +109,12 @@ const Contact = () => {
             <div className="my-5 ">
               <h3 className="font-bold">Our Social</h3>
               <div className="flex mt-4 space-x-4">
-                <a href="https://www.linkedin.com/in/titancode" className="text-black hover:text-[#0090FF]"><FaLinkedin size="22" /></a>
-                <a href="https://x.com/titan_codesl" className="text-black hover:text-[#0090FF]"><SiX size="22" /></a>
-                <a href="https://www.facebook.com/profile.php?id=100012056560141&mibextid=LQQJ4d" className="text-black hover:text-[#0090FF]"><FaFacebook size="22" /></a>
-                <a href="https://www.instagram.com/ashxn___?igsh=b3FmZDBpemxvMTJz&utm_source=qr" className="text-black hover:text-[#0090FF]"><FaInstagram size="22" /></a>
-                <a href="https://dribbble.com/titan_codesl" className="text-black hover:text-[#0090FF]"><FaDribbble size="22" /></a>
-                <a href="https://www.behance.net/titancode" className="text-black hover:text-[#0090FF]"><FaBehance size="22" /></a>
+              <a href="https://www.linkedin.com/in/titan-codelk/" className="text-black hover:text-[#0090FF]"><FaLinkedin size="22" /></a>
+              <a href="https://x.com/titan_codelk" className="text-black hover:text-[#0090FF]"><SiX size="22" /></a>
+              <a href="https://web.facebook.com/profile.php?id=61564774191934" className="text-black hover:text-[#0090FF]"><FaFacebook size="22" /></a>
+              <a href="https://www.instagram.com/titan_codelk/" className="text-black hover:text-[#0090FF]"><FaInstagram size="22" /></a>
+              <a href="https://dribbble.com/titan_codelk?onboarding=true&designer=true" className="text-black hover:text-[#0090FF]"><FaDribbble size="22" /></a>
+              <a href="https://www.behance.net/titancode1" className="text-black hover:text-[#0090FF]"><FaBehance size="22" /></a>
               </div>
             </div>
           </div>
