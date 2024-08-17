@@ -21,12 +21,12 @@ const Talks = () => {
         </button>
         </RouterLink>
         <div className="flex space-x-4">
-              <a href="https://www.linkedin.com/in/titancode" className="text-black hover:text-[#0090FF]"><FaLinkedin size="22" /></a>
-              <a href="https://x.com/titan_codesl" className="text-black hover:text-[#0090FF]"><SiX size="22" /></a>
-              <a href="https://www.facebook.com/profile.php?id=100012056560141&mibextid=LQQJ4d" className="text-black hover:text-[#0090FF]"><FaFacebook size="22" /></a>
-              <a href="https://www.instagram.com/ashxn___?igsh=b3FmZDBpemxvMTJz&utm_source=qr" className="text-black hover:text-[#0090FF]"><FaInstagram size="22" /></a>
-              <a href="https://dribbble.com/titan_codesl" className="text-black hover:text-[#0090FF]"><FaDribbble size="22" /></a>
-              <a href="https://www.behance.net/titancode" className="text-black hover:text-[#0090FF]"><FaBehance size="22" /></a>
+              <a href="https://www.linkedin.com/in/titan-codelk/" className="text-black hover:text-[#0090FF]"><FaLinkedin size="22" /></a>
+              <a href="https://x.com/titan_codelk" className="text-black hover:text-[#0090FF]"><SiX size="22" /></a>
+              <a href="https://web.facebook.com/profile.php?id=61564774191934" className="text-black hover:text-[#0090FF]"><FaFacebook size="22" /></a>
+              <a href="https://www.instagram.com/titan_codelk/" className="text-black hover:text-[#0090FF]"><FaInstagram size="22" /></a>
+              <a href="https://dribbble.com/titan_codelk?onboarding=true&designer=true" className="text-black hover:text-[#0090FF]"><FaDribbble size="22" /></a>
+              <a href="https://www.behance.net/titancode1" className="text-black hover:text-[#0090FF]"><FaBehance size="22" /></a>
         </div>
       </div>
     </div>
