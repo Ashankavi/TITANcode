@@ -257,10 +257,10 @@ const Careers = () => {
             <h1 className="text-2xl text-[#0090FF] md:text-5xl font-bold mb-4 mx-2 text-center uppercase">
               Message from our Leader
             </h1>
-            <p className="mx-2 text-[8px] md:text-[8px] lg:text-[15px]">
+            <p className="mx-2 text-[13px] md:text-[13px] lg:text-[15px]">
               Welcome to the TITANcode family! We're thrilled to have you on board. At TITANcode, our mission is to provide exceptional technology solutions that help businesses thrive. We are committed to delivering high-quality web development, mobile apps, UI/UX design, and digital marketing services, driving innovation and excellence in every project we undertake. Dive in, share your ideas, and let’s achieve great things together!
             </p>
-            <p className="mx-2 my-4 text-[#4E4E4E] text-[8px] md:text-[8px] lg:text-[15px]">
+            <p className="mx-2 my-4 text-[#4E4E4E] text-[13px] md:text-[13px] lg:text-[15px]">
               <span className="font-bold text-[#000000]">Ashan Kavindu</span> <br />
               Founder & CEO, TITANcode
             </p>

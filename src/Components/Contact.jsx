@@ -76,7 +76,22 @@ const Contact = () => {
 
           </div>
           <div className="flex justify-center order-1 mt-12 md:w-1/2 md:order-2 md:mt-0">
-            <img className="" src={Homeimg} alt="Careers" />
+            <img className="" src={Homeimg} alt="Careers"style={{
+                            animation: 'upAndDown 3s ease-in-out infinite',
+                        }} 
+                    />
+                    <style>
+                        {`
+                            @keyframes upAndDown {
+                                0%, 100% {
+                                    transform: translateY(0);
+                                }
+                                50% {
+                                    transform: translateY(-20px);
+                                }
+                            }
+                        `}
+                    </style>
           </div>
         </div>
       </section>

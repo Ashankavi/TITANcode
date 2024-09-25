@@ -105,7 +105,9 @@ const Home = () => {
         <section id="who-we-are" className="bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px]">
             <div className="max-w-8xl mx-[auto] flex flex-col md:flex-row items-center">
                 <div className="flex justify-center order-1 mt-12 md:w-1/2 md:order-2 md:mt-0">
-                    <img className="" src={WeAre} style={{
+                    <img className="" 
+                            src={WeAre} 
+                            style={{
                             animation: 'upAndDown 3s ease-in-out infinite',
                         }} 
                     />
