@@ -30,7 +30,7 @@ const Footer = () => {
           <div className="w-full mb-8 sm:w-1/2 sm:mb-0">
             <img src={Logo} alt="TITANCode Logo" className="h-8 mx-8 mb-4 sm:h-10 md:h-12 lg:h-10"/>
             <p className="flex flex-col gap-2 sm:text-left mx-5  text-[#727272]">
-              TITANCode delivers cutting-edge technology solutions, specializing in web development,
+            CodeWAYNE delivers cutting-edge technology solutions, specializing in web development,
               mobile apps, UI/UX design, and digital marketing. Our expert team is dedicated to
               transforming your ideas into impactful digital experiences, driving your business forward.
             </p>
@@ -67,7 +67,7 @@ const Footer = () => {
         </div>
         <hr className="my-6 border-gray-300" />
         <div className="text-xs text-center">
-          <p> Copyright © 2023 <span className='font-bold text-blue-600'>TITANcode</span> Corporation. All Rights Reserved</p>
+          <p> Copyright © 2023 <span className='font-bold text-blue-600'>codeWAYNE</span> Corporation. All Rights Reserved</p>
         </div>
       </div>
     </footer>

@@ -25,7 +25,7 @@ const About = () => {
           <p className="font-medium text-blue-600 ">"WE ARE A LEADING PROVIDER OF TECHNOLOGY SOLUTIONS"</p>
           <h1 className="my-4 text-4xl font-bold uppercase md:text-6xl">About Us</h1>
           <p className="text-lg ">
-            <span className="font-bold text-blue-600 ">TITANCode</span>  we are dedicated to providing top-notch technology solutions. Our team excels in web development, mobile apps, UI/UX design, and digital marketing. We are committed to turning your ideas into powerful digital experiences and driving your business success.
+            <span className="font-bold text-blue-600 ">CodeWAYNE</span>  we are dedicated to providing top-notch technology solutions. Our team excels in web development, mobile apps, UI/UX design, and digital marketing. We are committed to turning your ideas into powerful digital experiences and driving your business success.
           </p>
           <RouterLink to="/Contact">
           <button className="px-6 py-3 mt-4 text-white transition duration-300 bg-blue-600 rounded-lg shadow-md hover:bg-blue-700">Let's Talk</button>
@@ -77,7 +77,7 @@ const About = () => {
         <div className="order-2 mx-5 mt-12 md:w-1/2 md:order-2 md:mt-0">
           <h1 className="text-4xl text-[#0090FF] md:text-6xl font-bold mb-6 uppercase">Our Vision</h1>
           <p className="mb-6 text-lg">
-            <span className="font-bold text-blue-600">TITANCode</span> we aim to be at the forefront of technology, delivering innovative solutions that drive progress and transformation. Our goal is to empower businesses with advanced software and strategic design to shape the future of digital experiences.
+            <span className="font-bold text-blue-600">CodeWAYNE</span> we aim to be at the forefront of technology, delivering innovative solutions that drive progress and transformation. Our goal is to empower businesses with advanced software and strategic design to shape the future of digital experiences.
           </p>
         </div>
       </div>
@@ -108,7 +108,7 @@ const About = () => {
         <div className="order-2 mx-5 mt-12 md:order-1 md:mt-0 md:w-1/2">
           <h1 className="text-4xl text-[#0090FF] md:text-6xl font-bold mb-6 uppercase">Our Mission</h1>
           <p className="mb-6 text-lg">
-            <span className="font-bold text-blue-600">TITANCode</span> Empowering businesses with cutting-edge technology and innovative solutions to drive success and excellence in the digital world.
+            <span className="font-bold text-blue-600">CodeWAYNE</span> Empowering businesses with cutting-edge technology and innovative solutions to drive success and excellence in the digital world.
           </p>
         </div>
       </div>

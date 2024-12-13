@@ -5,39 +5,39 @@ const experts = [
   {
     name: "Chanodya Niukshi",
     position: "Manager and Director",
-    company: "TITANCode",
-    description: "As the Manager and Director of TITANcode, I lead our team to deliver outstanding technology solutions with a focus on innovation and excellence.",
+    company: "CodeWAYNE",
+    description: "As the Manager and Director of CodeWAYNE, I lead our team to deliver outstanding technology solutions with a focus on innovation and excellence.",
     positionStyle: { top: '45%', left: '20%' },
     boxPosition: { top: '57%', left: '10%' }
   },
   {
     name: "Samindi Kusalya",
     position: "Project Manager",
-    company: "TITANCode",
-    description: "As the Project Manager at TITANcode, I ensure our projects are delivered on time and exceed client expectations through meticulous planning and execution.",
+    company: "CodeWAYNE",
+    description: "As the Project Manager at CodeWAYNE, I ensure our projects are delivered on time and exceed client expectations through meticulous planning and execution.",
     positionStyle: { top: '50%', left: '38%' },
     boxPosition: { top: '55%', left: '28%' }
   },
   {
     name: "Ashan Kavindu",
     position: "Founder & CEO, ",
-    company: "TITANCode",
-    description: "As CEO and Founder of TITANcode, I lead our team with a focus on innovation and excellence, ensuring we deliver top-notch tech solutions and drive our mission forward.",
+    company: "CodeWAYNE",
+    description: "As CEO and Founder of CodeWAYNE, I lead our team with a focus on innovation and excellence, ensuring we deliver top-notch tech solutions and drive our mission forward.",
     positionStyle: { top: '45%', left: '50%' },
     boxPosition: { top: '59%', left: '28%' }
   },
   {
     name: "Sahan Udara",
     position: "Co-Founder & Senior Software Enginner",
-    company: "TITANCode",
-    description: "As Co-Founder and Senior Software Engineer at TITANcode, I drive innovation and technical excellence, leading our team to deliver top-quality solutions and shape our company's future.",
+    company: "CodeWAYNE",
+    description: "As Co-Founder and Senior Software Engineer at CodeWAYNE, I drive innovation and technical excellence, leading our team to deliver top-quality solutions and shape our company's future.",
     positionStyle: { top: '50%', left: '62%' },
     boxPosition: { top: '57%', left: '25%' }
   },
   {
     name: "Kithmi Sansala",
     position: "Product Manager",
-    company: "TITANCode",
+    company: "CodeWAYNE",
     description: "I drive product vision and strategy to create innovative solutions that meet our clients' needs and exceed their expectations.",
     positionStyle: { top: '50%', left: '75%' },
     boxPosition: { top: '57%', left: '10%' }

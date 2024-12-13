@@ -64,7 +64,7 @@ const Home = () => {
                     <p className="font-medium text-blue-600">"WE ARE A LEADING PROVIDER OF TECHNOLOGY SOLUTIONS"</p>
                     <h1 className="mb-6 text-4xl font-bold md:text-6xl">LEADING TECHNOLOGY SOLUTIONS FOR A BRIGHTER FUTURE</h1>
                     <p className="mb-6 text-lg">
-                        <span className="font-bold text-blue-600">TITANCode</span> delivers all-in-one solutions for web, design, and marketing. From building websites and apps to crafting digital strategies, we guide you from where you are to where you want to be. Let us help you achieve your goals and elevate your business.
+                        <span className="font-bold text-blue-600">CodeWAYNE</span> delivers all-in-one solutions for web, design, and marketing. From building websites and apps to crafting digital strategies, we guide you from where you are to where you want to be. Let us help you achieve your goals and elevate your business.
                     </p>
                     <Link
                         to="who-we-are"
@@ -141,7 +141,7 @@ const Home = () => {
         <section className="bg-[#ffffff] my-[31px] mx-[31px] py-16 md:py-24 md:px-16 rounded-[50px]">
             <div className="mx-auto max-w-7xl">
                 <RouterLink to="/services">
-                    <h1 className="text-4xl mx-5 text-[#0090FF] md:text-6xl font-bold mb-6 uppercase text-center">OUR SERVICES</h1>
+                    <h1 className="text-4xl mx-5 text-[#0090FF] md:text-6xl font-bold mb-16 uppercase text-center">OUR SERVICES</h1>
                     <div className="grid grid-cols-1 gap-8 mx-5 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
                         {services.map((service, index) => (
                             <div key={index} className="bg-[#F4F4F5] p-6 rounded-[30px]">

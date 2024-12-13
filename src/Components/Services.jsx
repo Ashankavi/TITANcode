@@ -27,9 +27,9 @@ const Services = () => {
         <div className="relative flex flex-col items-center mx-auto max-w-8xl md:flex-row">
           <div className="order-2 mx-5 md:w-1/2 md:order-1">
             <p className="font-medium text-blue-600">"WE ARE A LEADING PROVIDER OF TECHNOLOGY SOLUTIONS"</p>
-            <h1 className="my-4 text-4xl font-bold uppercase md:text-6xl">Our Services</h1>
+            <h1 className="my-6 text-4xl font-bold uppercase md:text-6xl">Our Services</h1>
             <p className="text-lg">
-              <span className="font-bold text-blue-600">TITANCode</span> we specialize in delivering top-notch services in web development, mobile app creation, UI/UX design, and digital marketing. Our expert team is dedicated to helping businesses thrive through innovative and high-quality solutions tailored to meet your unique needs. Partner with us to drive your business forward with exceptional technology solutions.
+              <span className="font-bold text-blue-600">CodeWAYNE</span> we specialize in delivering top-notch services in web development, mobile app creation, UI/UX design, and digital marketing. Our expert team is dedicated to helping businesses thrive through innovative and high-quality solutions tailored to meet your unique needs. Partner with us to drive your business forward with exceptional technology solutions.
             </p>
             <RouterLink to="/Contact">
               <button className="px-6 py-3 mt-4 text-white transition duration-300 bg-blue-600 rounded-lg shadow-md hover:bg-blue-700">Let's Talk</button>
@@ -80,7 +80,7 @@ const Services = () => {
           <div className="order-2 mx-5 mt-12 md:w-1/2 md:order-2 md:mt-0">
             <h1 className="text-4xl text-[#0090FF] md:text-6xl font-bold mb-6 uppercase">Web Application</h1>
             <p className="mb-6 text-lg">
-              At <span className="font-bold text-blue-600">TITANCode</span>, our web application services are designed to transform your ideas into powerful, scalable, and high-performance applications. We specialize in creating custom web solutions that are responsive, user-friendly, and visually eye-catching. From initial concept to deployment and maintenance, our expert team ensures seamless user experiences and robust functionality, delivering innovative applications that drive growth and efficiency for your business.
+              At <span className="font-bold text-blue-600">CodeWAYNE</span>, our web application services are designed to transform your ideas into powerful, scalable, and high-performance applications. We specialize in creating custom web solutions that are responsive, user-friendly, and visually eye-catching. From initial concept to deployment and maintenance, our expert team ensures seamless user experiences and robust functionality, delivering innovative applications that drive growth and efficiency for your business.
             </p>
           </div>
         </div>
@@ -202,7 +202,7 @@ const Services = () => {
           <div className="order-2 mx-5 mt-12 md:w-1/2 md:order-2 md:mt-0">
             <h1 className="text-4xl text-[#0090FF] md:text-6xl font-bold mb-6 uppercase">graphic Designing</h1>
             <p className="mb-6 text-lg">
-              At <span className="font-bold text-blue-600">TITANCode</span>, our graphic design services encompass social media posts, flyers, banners, logos, labels, packages, tickets, and more. Utilizing Adobe Photoshop, Illustrator, and InDesign, we ensure high-quality, visually appealing designs that effectively communicate your brand's message and captivate your audience.
+              At <span className="font-bold text-blue-600">CodeWAYNE</span>, our graphic design services encompass social media posts, flyers, banners, logos, labels, packages, tickets, and more. Utilizing Adobe Photoshop, Illustrator, and InDesign, we ensure high-quality, visually appealing designs that effectively communicate your brand's message and captivate your audience.
             </p>
           </div>
         </div>

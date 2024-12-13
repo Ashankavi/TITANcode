@@ -218,9 +218,9 @@ const Careers = () => {
             <p className="font-medium text-blue-600">
               "WE ARE A LEADING PROVIDER OF TECHNOLOGY SOLUTIONS"
             </p>
-            <h1 className="my-4 text-4xl font-bold md:text-6xl">BECOME A TITANcoder</h1>
+            <h1 className="my-4 text-4xl font-bold md:text-6xl">BECOME A CodeWAYNE</h1>
             <p className="text-lg">
-            Elevate your career with <span className="font-bold text-blue-600 "> TITANCode</span> ! Explore our current job openings and join a team dedicated to innovation and excellence. Find your next opportunity and make an impact with us. Apply now and start your journey at TITANcode!
+            Elevate your career with <span className="font-bold text-blue-600 "> CodeWAYNE</span> ! Explore our current job openings and join a team dedicated to innovation and excellence. Find your next opportunity and make an impact with us. Apply now and start your journey at CodeWAYNE!
             </p>
             <RouterLink to="/Contact">
               <button className="px-6 py-3 mt-4 text-white transition duration-300 bg-blue-600 rounded-lg shadow-md hover:bg-blue-700">Let's Talk</button>
@@ -258,11 +258,11 @@ const Careers = () => {
               Message from our Leader
             </h1>
             <p className="mx-2 text-[13px] md:text-[13px] lg:text-[15px]">
-              Welcome to the TITANcode family! We're thrilled to have you on board. At TITANcode, our mission is to provide exceptional technology solutions that help businesses thrive. We are committed to delivering high-quality web development, mobile apps, UI/UX design, and digital marketing services, driving innovation and excellence in every project we undertake. Dive in, share your ideas, and let’s achieve great things together!
+              Welcome to the TITANcode family! We're thrilled to have you on board. At CodeWAYNE, our mission is to provide exceptional technology solutions that help businesses thrive. We are committed to delivering high-quality web development, mobile apps, UI/UX design, and digital marketing services, driving innovation and excellence in every project we undertake. Dive in, share your ideas, and let’s achieve great things together!
             </p>
             <p className="mx-2 my-4 text-[#4E4E4E] text-[13px] md:text-[13px] lg:text-[15px]">
               <span className="font-bold text-[#000000]">Ashan Kavindu</span> <br />
-              Founder & CEO, TITANcode
+              Founder & CEO, CodeWAYNE
             </p>
           </div>
         </div>

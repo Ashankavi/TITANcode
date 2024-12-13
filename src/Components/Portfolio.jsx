@@ -58,7 +58,7 @@ const Portfolio = () => {
           <p className="font-medium text-blue-600 ">"WE ARE A LEADING PROVIDER OF TECHNOLOGY SOLUTIONS"</p>
           <h1 className="my-4 text-4xl font-bold uppercase md:text-6xl">Our Success Stories</h1>
           <p className="text-lg ">At
-            <span className="font-bold text-blue-600 "> TITANCode</span> Discover our portfolio of successful projects in web development, mobile apps, UI/UX design, and digital marketing. Each project showcases our dedication to delivering innovative and high-quality solutions that help businesses thrive. Explore our achievements and see how we've made an impact.
+            <span className="font-bold text-blue-600 "> CodeWAYNE</span> Discover our portfolio of successful projects in web development, mobile apps, UI/UX design, and digital marketing. Each project showcases our dedication to delivering innovative and high-quality solutions that help businesses thrive. Explore our achievements and see how we've made an impact.
           </p>
           <RouterLink to="/Home">
           <button className="px-6 py-3 mt-4 text-white transition duration-300 bg-blue-600 rounded-lg shadow-md hover:bg-blue-700">Let's Talk</button>
@@ -111,7 +111,7 @@ const Portfolio = () => {
             <div className="p-4">
               <h2 className="mb-2 text-lg font-semibold">{card.title}</h2>
               <p className="text-gray-600 text-[8px] sm:text-[7px] md:text-[8px] lg:text-[15px]">
-                At TITANCode, our web application services are designed to transform your ideas into
+                At CodeWAYNE, our web application services are designed to transform your ideas into
                 powerful, scalable, and high-performance applications. We specialize in creating
                 custom web solutions that are responsive, user-friendly, and visually eye-catching.
               </p>

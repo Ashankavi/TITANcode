@@ -12,7 +12,7 @@ const Policy = () => {
         {/* Effective Date */}
         <h2 className="text-[18px]  lg:text-2xl text-[#0090FF] font-bold  uppercase mt-8 mb-5">Effective Date: 02 July 2024</h2>
         <p className="sm:text-left text-[12px] lg:text-[15px] text-[#727272]">
-        At TITANcode, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, and safeguard your information when you use our website and services.
+        At CodeWAYNE, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy outlines how we collect, use, and safeguard your information when you use our website and services.
             </p>
 
         {/* 1. Information We Collect */}

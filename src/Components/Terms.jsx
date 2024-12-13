@@ -11,7 +11,7 @@ const Terms = () => {
         {/* Effective Date */}
         <h2 className="text-[18px]  lg:text-2xl text-[#0090FF] font-bold  uppercase mt-8 mb-5">Effective Date: 02 July 2024</h2>
         <p className="sm:text-left text-[12px] lg:text-[15px] text-[#727272]">
-        Welcome to TITANcode! By accessing or using our website and services, you agree to comply with and be bound by the following Terms & Conditions. Please read them carefully.
+        Welcome to CodeWAYNE! By accessing or using our website and services, you agree to comply with and be bound by the following Terms & Conditions. Please read them carefully.
             </p>
 
         {/* 1. Services */}
@@ -60,7 +60,7 @@ const Terms = () => {
         {/* 7. Limitation of Liability */}
         <h2 className="text-[18px]  lg:text-2xl text-[#0090FF] font-bold  uppercase mt-8 mb-5">5. Confidentiality</h2>
                 <p className="sm:text-left text-[12px] lg:text-[15px] text-[#727272]"> 
-                TITANcode is not liable for any indirect, incidental, special, or consequential damages arising out of or in connection with the use of our services. Our total liability is limited to the amount paid for the specific services causing the damage.
+                CodeWAYNE is not liable for any indirect, incidental, special, or consequential damages arising out of or in connection with the use of our services. Our total liability is limited to the amount paid for the specific services causing the damage.
                 </p>      
 
         {/* 7. Limitation of Liability */}
